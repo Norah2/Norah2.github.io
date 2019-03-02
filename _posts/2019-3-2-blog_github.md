@@ -32,7 +32,7 @@ tag: blog
 
 我的账号是在半年前注册的，注册之后就安装了Git，那时还没有博客，因此现在只能略讲。
 
-> [Git安装教程 + SSH 配置](https://norah2.github.io/2019/02/Git_install/)
+> [Git安装教程 + SSH 配置](https://norah2.github.io/2019/03/Git_install/)
 
 ### 学习搭建项目
 
