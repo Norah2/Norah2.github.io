@@ -66,7 +66,14 @@ tag: blog
 
 ## 配置SSH
 
-1.创建 SSH key
+1. 首先设置一下git的邮箱和用户名
+输入以下两行命令：
+```
+git config --global user.email "your email"
+git config --global user.name "your name"
+```
+**注：引号里面的请填写自己的邮箱和用户名**
+2. 创建 SSH key
 
 删除.ssh文件下的 known_hosts
 
@@ -87,7 +94,10 @@ Enter file in which to save the key (/Users/your_user_directory/.ssh/id_rsa):
 
 windows 在 `C:\Users\username\.ssh\`  路径下有 `id_rsa` 和 `id_rsa.pub` 两个文件，`id_rsa.pub`文件中存储着 SSH 公钥。`id_rsa` 存储着私钥。
 
-2、登陆Github，打开“Accounting setting”，“SSH Keys”页面：
+以上两个步骤整体流程如下图：
+![](/images/posts/Git_install/14.jpg)
+
+3.登陆Github，打开“Accounting setting”，“SSH Keys”页面：
 
 ![](/images/posts/Git_install/12.png)
 
