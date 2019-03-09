@@ -251,12 +251,14 @@ GFM 全称 Github Flvored Markdown。这里就是在讲GitHub平台上个性化�
 :smile:
 :snake:
 :rainbow:
-:sun:
 ```
 :smile:  
 :snake:  
 :rainbow:  
-:sun:  
+
+（这里在网页上没法显示，但是在github项目中是可以的）  
+贴个图看看：  
+![emoji_photos][emoji]
 
 **注：可以打的表情符有好多，没办法一一列举，不过很好玩。**
 
@@ -279,7 +281,7 @@ Markdown语法教程完结
 [code]: /images/posts/Markdown/15.png
 [emoji]: https://github.com/guodongxiaren/README/blob/master/emoji.md
 [guanfang]: https://www.webfx.com/tools/emoji-cheat-sheet/
-
+[emoji]: /images/posts/Markdown/16.png
 ------
 
 文章的结尾自然是用来扩展的呀~~  
