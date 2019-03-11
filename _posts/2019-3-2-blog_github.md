@@ -58,7 +58,7 @@ tag: blog
 
 首先进入 [rubyInstall官网](https://rubyinstaller.org/downloads/)，点击下载安装包。安装一路next即可。
 
-ruby仅仅只是给 Jekyll 搭建了一个环境，这时我们还需要借助另一个工具帮助我们安装 Jekyll，这里贴上下载的官方文档：[Download RubyDems](https://rubygems.org/pages/download)
+ruby仅仅只是给 Jekyll 搭建了一个环境，这时我们还需要借助另一个工具帮助我们安装 Jekyll，这里贴上下载的官方文档：[Download RubyGems](https://rubygems.org/pages/download)
 
 由于我用的是 Windows 系统，所以选择了`zip`这个后缀名的安装包。
 
