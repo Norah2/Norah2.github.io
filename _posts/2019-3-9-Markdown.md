@@ -262,7 +262,7 @@ GFM 全称 Github Flvored Markdown。这里就是在讲GitHub平台上个性化�
 
 **注：可以打的表情符有好多，没办法一一列举，不过很好玩。**
 
-有个名叫“果冻虾仁”的哥们儿将emoji表情语法整理下来了。有福啦哈哈哈~~附上链接：[emoji表情语法][emoji]  
+有个名叫“果冻虾仁”的哥们儿将emoji表情语法整理下来了。有福啦哈哈哈~~附上链接：[emoji表情语法][emoji_url]  
 当然这个是由官方文档的，附上链接:[emoji官方介绍][guanfang]
 
 Markdown语法教程完结
@@ -279,7 +279,7 @@ Markdown语法教程完结
 [baidu_logo]: https://www.baidu.com/img/bd_logo1.png?where=super
 [list]: /images/posts/Markdown/14.png
 [code]: /images/posts/Markdown/15.png
-[emoji]: https://github.com/guodongxiaren/README/blob/master/emoji.md
+[emoji_url]: https://github.com/guodongxiaren/README/blob/master/emoji.md
 [guanfang]: https://www.webfx.com/tools/emoji-cheat-sheet/
 [emoji]: /images/posts/Markdown/16.png
 ------
