@@ -212,15 +212,15 @@ instances are callable now.
    3. 如果 sys.breakpointhook 缺失，则会抛出 RuntimeError
 
 ```python
-# In builtins.
+#In builtins.
 def breakpoint(*args, **kws):
     import sys
     missing = object()
-    # 设置钩子函数
+    #设置钩子函数
     hook = getattr(sys, 'breakpointhook', missing)
     if hook is missing:
         raise RuntimeError('lost sys.breakpointhook')
-    # 返回钩子函数的调用
+    #返回钩子函数的调用
     return hook(*args, **kws)
 ```
 
@@ -968,7 +968,6 @@ https://www.jianshu.com/p/5d3c52c5c2a2
 
 转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/03/Built_in_func/) 
 
-### 链接
 <!--以下是本文中的链接-->
 [func]: /images/posts/Built_in_func/01.png  
 
