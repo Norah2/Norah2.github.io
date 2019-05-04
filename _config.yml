@@ -67,4 +67,5 @@ gems: [jekyll-sitemap]
 paginate: 5
 paginate_path: "page/:num/"
 
-
+# markdown语法插入公式
+markdown: kramdown
