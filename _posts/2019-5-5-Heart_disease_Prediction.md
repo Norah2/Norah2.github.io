@@ -85,7 +85,7 @@ Step 3：数据标准化
 
 $$P(Y=1|x)=\frac{e^{(\omega\cdot{x}+b)}}{1+e^{(\omega\cdot{x}+b)}}$$  
 
-$$P(Y=0|x)=\frac{1}{1+e^{(\omega\cdot{x}}+b)}}$$  
+$$P(Y=0|x)=\frac{1}{1+e^{(\omega\cdot{x}}+b)}$$  
 
 其中x是n维向量，对应于数据集中的n维特征。Y为输出，Y的取值为0或1。b为偏置项，w是x的权重。  
 
@@ -95,10 +95,11 @@ $$P(Y=1|x)=\frac{e^{(\omega\cdot{x})}}{1+e^{(\omega\cdot{x})}}$$
 
 $$P(Y=0|x)=\frac{1}{1+e^{(\omega\cdot{x}+b)}}$$  
 
-其中将偏置项b放入了x中，由此x写为$$x=((x^((1) ),x^((2) ),…,x^((n) ),1))^T$$，同时x的权重也更改为$\omega=(\omega^((1) ),\omega^((2) ),\underbrace{\ldots}_{\rm ldots},\omega^((n) ),1))^T$ ，通过上述公式，分别求出$P（Y=1|x）$以及$P（Y=0|x）$。
+其中将偏置项b放入了x中，由此x写为$x={(x^{(1)},x^{(2)},…,x^{(n)},1)}^T$，同时x的权重也更改为$\omega={(\omega^{(1)}, \omega^{(2)}, \underbrace{\ldots}_{\rm ldots},\omega^{(n)}, 1)}^T$ ，通过上述公式，分别求出${P(Y=1|x)}$以及$P{(Y=0|x)}$。  
+
 接下来对两个概率值求对数，得到对数几率：  
 
-$$\log\frac{P(Y=1|x)}{1-P(Y=1|x)}=\omega\cdot{x}$$  
+$${\log{\frac{P(Y=1|x)}{1-P(Y=1|x)}}=\omega\cdot{x}}$$  
 
 由上述公式可知输出Y=1的对数几率时输入x的线性函数。接下来用极大似然估计确定权重ω的值。  
 
