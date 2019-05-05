@@ -91,7 +91,7 @@ $$P(Y=0\vert{x})=\frac{1}{1+e^{(\omega\cdot{x}}+b)}$$
 
 上述公式可以进一步简化为：  
 
-$$P(Y=1\vert{x}})=\frac{e^{(\omega\cdot{x})}}{1+e^{(\omega\cdot{x})}}$$  
+$$P(Y=1\vert{x})=\frac{e^{(\omega\cdot{x})}}{1+e^{(\omega\cdot{x})}}$$  
 
 $$P(Y=0\vert{x})=\frac{1}{1+e^{(\omega\cdot{x}+b)}}$$  
 
