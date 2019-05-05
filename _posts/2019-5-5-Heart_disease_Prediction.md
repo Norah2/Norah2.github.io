@@ -83,7 +83,9 @@ Step 3：数据标准化
 
 本数据集目的是根据已有的特征进行预测该个体是否有心脏病，当预测值y为1值代表有心脏病，0则为无心脏病，由此可以看出此问题属于一个二分类问题。已知特征向量X，求在X条件下，y为1以及0两个概率值。  
 
-$$\begin{equation}P(Y=1\vert{x})=\frac{e^{(\omega\cdot{x}+b)}}{1+e^{(\omega\cdot{x}+b)}}\end{equation}$$  
+$$\begin
+{equation}P(Y=1\vert{x})=\frac{e^{(\omega\cdot{x}+b)}}{1+e^{(\omega\cdot{x}+b)}}
+\end{equation}$$  
 
 $$\begin{equation}P(Y=0\vert{x})=\frac{1}{1+e^{(\omega\cdot{x}}+b)}\end{equation}$$  
 
