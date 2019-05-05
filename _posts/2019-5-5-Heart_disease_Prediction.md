@@ -84,55 +84,83 @@ Step 3：数据标准化
 
 本数据集目的是根据已有的特征进行预测该个体是否有心脏病，当预测值y为1值代表有心脏病，0则为无心脏病，由此可以看出此问题属于一个二分类问题。已知特征向量X，求在X条件下，y为1以及0两个概率值。  
 
-$$P(Y=1\vert{x})=\frac{e^{(\omega\cdot{x}+b)}}{1+e^{(\omega\cdot{x}+b)}}$$  
+$$\begin{equation}
+P(Y=1\vert{x})=\frac{e^{(\omega\cdot{x}+b)}}{1+e^{(\omega\cdot{x}+b)}}
+\end{equation}$$  
 
-$$\begin{equation}P(Y=0\vert{x})=\frac{1}{1+e^{(\omega\cdot{x}}+b)}\end{equation}$$  
+$$\begin{equation}
+P(Y=0\vert{x})=\frac{1}{1+e^{(\omega\cdot{x}}+b)}
+\end{equation}$$  
 
 其中x是n维向量，对应于数据集中的n维特征。Y为输出，Y的取值为0或1。b为偏置项，w是x的权重。  
 
 上述公式可以进一步简化为：  
 
-$$P(Y=1\vert{x})=\frac{e^{(\omega\cdot{x})}}{1+e^{(\omega\cdot{x})}}$$  
+$$\begin{equation}
+P(Y=1\vert{x})=\frac{e^{(\omega\cdot{x})}}{1+e^{(\omega\cdot{x})}}
+\end{equation}$$  
 
-$$P(Y=0\vert{x})=\frac{1}{1+e^{(\omega\cdot{x}+b)}}$$  
+$$\begin{equation}
+P(Y=0\vert{x})=\frac{1}{1+e^{(\omega\cdot{x}+b)}}
+\end{equation}$$  
 
 其中将偏置项b放入了x中，由此x写为$x={(x^{(1)},x^{(2)},…,x^{(n)},1)}^T$，同时x的权重也更改为$\omega={(\omega^{(1)}, \omega^{(2)}, \underbrace{\ldots}_{\rm ldots},\omega^{(n)}, 1)}^T$ ，通过上述公式，分别求出${P(Y=1\vert{x})}$以及$P{(Y=0\vert{x})}$。  
 
 接下来对两个概率值求对数，得到对数几率：  
 
-$${\log{\frac{P(Y=1\vert{x})}{1-P(Y=1\vert{x})}}=\omega\cdot{x}}$$  
+$$\begin{equation}
+{\log{\frac{P(Y=1\vert{x})}{1-P(Y=1\vert{x})}}=\omega\cdot{x}}
+\end{equation}$$  
 
 由上述公式可知输出Y=1的对数几率时输入x的线性函数。接下来用极大似然估计确定权重ω的值。  
 
-设： $$P(Y=1\vert{x})=\pi(x), P(Y=0\vert{x})=1-\pi(x)$$  
+设： 
+
+$$\begin{equation}
+P(Y=1\vert{x})=\pi(x), P(Y=0\vert{x})=1-\pi(x)
+\end{equation}$$  
 
 则似然函数为：
 
-$$\prod_{i=1}^N{[\pi(x_i)]}^{y_i}{[1-\pi(x_i)]}^{1-y_i}$$  
+$$\begin{equation}
+\prod_{i=1}^N{[\pi(x_i)]}^{y_i}{[1-\pi(x_i)]}^{1-y_i}
+\end{equation}$$  
 
 化简后的对数似然函数为： 
 
-$$L(\omega)=\sum_{i=1}^N{[y_i(\omega\cdot{x_i})-\log(1+e^{(\omega\cdot{x_i})})]}$$  
+$$\begin{equation}
+L(\omega)=\sum_{i=1}^N{[y_i(\omega\cdot{x_i})-\log(1+e^{(\omega\cdot{x_i})})]}
+\end{equation}$$  
  
 对逻辑回归的代价函数引入正则项 $\sum_{j=1}^n{\omega_j^2}$ ，可得引入正则项后的代价函数：  
 
-$$J(\omega)=-\frac{1}{n}\sum_{i=1}{N}{[y_i(\omega\cdot{x_i})-\log(1+e^{(\omega\cdot{x_i})})]}+\lambda\sum_{j=1}^n{\omega_j^2}$$  
+$$\begin{equation}
+J(\omega)=-\frac{1}{n}\sum_{i=1}{N}{[y_i(\omega\cdot{x_i})-\log(1+e^{(\omega\cdot{x_i})})]}+\lambda\sum_{j=1}^n{\omega_j^2}
+\end{equation}$$  
  
 代价函数取最小值时即使参数w的最大似然估计值，可以用梯度下降法进行求解代价函数的最小值，对ω求导：  
 
-$$\frac{\partial{J(\omega)}}{\partial{\omega}}=-\frac{1}{n}\sum_{i=1}^N{(y_i-\frac{exp(\omega\cdot{x_i})}{1+e^{(\omega\cdot{x_i})})}x_i+\frac{\lambda}{n}\omega_j}$$  
+$$\begin{equation}
+\frac{\partial{J(\omega)}}{\partial{\omega}}=-\frac{1}{n}\sum_{i=1}^N{(y_i-\frac{exp(\omega\cdot{x_i})}{1+e^{(\omega\cdot{x_i})})}x_i+\frac{\lambda}{n}\omega_j}
+\end{equation}$$  
 
 由此可以得到ω的更新公式：   
 
-$$\omega_j:=\omega_j-\alpha\frac{1}{n}\sum_{i=1}{n}(\pi(x_i)-y_i)x_i^j-\frac{\lambda}{n}\omega_j$$  
+$$\begin{equation}
+\omega_j:=\omega_j-\alpha\frac{1}{n}\sum_{i=1}{n}(\pi(x_i)-y_i)x_i^j-\frac{\lambda}{n}\omega_j
+\end{equation}$$  
 
 通过上述公式，进行多次迭代，每次迭代都向梯度方向下降，直到找到最优值，即求解到全局最小值，则可得到对应ω的值，假设J(ω)取最小值时ω为\bar{ω}, 则学习到的逻辑回归模型为：  
 
 最终学习到的模型为：
 
-$$P(Y=1\vert{x})=\frac{e^{(\bar{\omega}\cdot{x})}}{1+e^{(\bar{\omega}\cdot{x})}}$$  
+$$\begin{equation}
+P(Y=1\vert{x})=\frac{e^{(\bar{\omega}\cdot{x})}}{1+e^{(\bar{\omega}\cdot{x})}}
+\end{equation}$$  
 
-$$P(Y=0\vert{x})=\frac{1}{1+e^{(\bar{\omega}\cdot{x})}}$$  
+$$\begin{equation}
+P(Y=0\vert{x})=\frac{1}{1+e^{(\bar{\omega}\cdot{x})}}
+\end{equation}$$  
 
 通过上述公式，进行多次迭代，每次迭代向梯度方向下降，直到逐渐收敛得到最优值。  
 
