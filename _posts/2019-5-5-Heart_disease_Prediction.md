@@ -129,7 +129,7 @@ $$\omega_j:=\omega_j-\alpha\frac{1}{n}\sum_{i=1}{n}(\pi(x_i)-y_i)x_i^j-\frac{\la
 
 最终学习到的模型为：
 
-$$P(Y=1{&#124}x)=\frac{exp(\bar{\omega}\cdot{x})}{1+exp(\bar{\omega}\cdot{x})}$$  
+$$P(Y=1\vert{x})=\frac{exp(\bar{\omega}\cdot{x})}{1+exp(\bar{\omega}\cdot{x})}$$  
 
 $$P(Y=0{&#124}x)=\frac{1}{1+exp(\bar{\omega}\cdot{x})}$$  
 
