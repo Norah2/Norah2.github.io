@@ -13,30 +13,36 @@ tag: python
 
 1. 打开chrome，找到帮助选项卡，下拉框中有一个关于chrome的选项。  
 
-![][pt_01]
+   ![][pt_01]
 
+  
 2. 打开后就可以看见自己电脑上的chrome版本号，我的chrome版本号是74.0.3729.131  
 
-![][pt_02]
-
+   ![][pt_02]
+  
+  
 3. [打开链接][link_chromedriver], 在其中找到和自己chrome对应版本号的chromedriver。我选择的是74.0.3729.6/，点击。    
-![][pt_03]
 
-**注：一般一个版本的driver能够对应相近几个版本的chrome，所以选择邻近版本的chrome一般也可以，如果你没有在链接里面找到自己chrome的版本号可以自己查一下能够被哪个版本的driver兼容**  
+   ![][pt_03]
+  
+   **注：一般一个版本的driver能够对应相近几个版本的chrome，所以选择邻近版本的chrome一般也可以，如果你没有在链接里面找到自己chrome的版本号可以自己查一下能够被哪个版本的driver兼容**  
+  
 
 4. 进入到这个下载界面，我的系统是Windows，所以选了第三个，你可以根据自己的系统进行选择。  
 
-![][pt_04]
+   ![][pt_04]
 
-**注：Windows系统好像只有32的driver，反正我用着没有出bug。（我电脑是64位的）**  
+   **注：Windows系统好像只有32的driver，反正我用着没有出bug。（我电脑是64位的）**  
+  
 
 5. 下载之后解压  
 
-![][pt_05]
+    ![][pt_05]
+  
 
 6. 将解压之后的chromedriver.exe复制到路径`C:\Program Files (x86)\Google\Chrome\Application`下（我的需要管理员权限）。
 
-![][pt_06]
+   ![][pt_06]
 
 ### 安装selenium第三方包  
 
