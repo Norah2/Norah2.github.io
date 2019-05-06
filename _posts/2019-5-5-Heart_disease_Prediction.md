@@ -419,7 +419,7 @@ print(re.predict_log_proba)
 ```
 
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/04/file_process/)   
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/05/Heart_disease_Prediction/)   
 
 <!--以下是本文用到的链接-->  
 
