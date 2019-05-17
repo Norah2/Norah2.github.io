@@ -49,22 +49,22 @@ tag: Database
 
 <!--以下是本文用到的链接-->  
 
-[pt_01]: /images/jdk_install/01.png  
-[pt_02]: /images/jdk_install/02.png
-[pt_03]: /images/jdk_install/03.png
-[pt_04]: /images/jdk_install/04.png
-[pt_05]: /images/jdk_install/05.png
-[pt_06]: /images/jdk_install/06.png
-[pt_07]: /images/jdk_install/07.png
-[pt_08]: /images/jdk_install/08.png
-[pt_09]: /images/jdk_install/09.png
-[pt_10]: /images/jdk_install/10.png
-[pt_11]: /images/jdk_install/11.png  
-[pt_12]: /images/jdk_install/12.png
-[pt_13]: /images/jdk_install/13.png
-[pt_14]: /images/jdk_install/14.png
-[pt_15]: /images/jdk_install/15.png
-[pt_16]: /images/jdk_install/16.png
-[pt_17]: /images/jdk_install/17.png
-[pt_18]: /images/jdk_install/18.png
-[pt_19]: /images/jdk_install/19.png
+[pt_01]: /images/posts/jdk_install/01.png  
+[pt_02]: /images/posts/jdk_install/02.png
+[pt_03]: /images/posts/jdk_install/03.png
+[pt_04]: /images/posts/jdk_install/04.png
+[pt_05]: /images/posts/jdk_install/05.png
+[pt_06]: /images/posts/jdk_install/06.png
+[pt_07]: /images/posts/jdk_install/07.png
+[pt_08]: /images/posts/jdk_install/08.png
+[pt_09]: /images/posts/jdk_install/09.png
+[pt_10]: /images/posts/jdk_install/10.png
+[pt_11]: /images/posts/jdk_install/11.png  
+[pt_12]: /images/posts/jdk_install/12.png
+[pt_13]: /images/posts/jdk_install/13.png
+[pt_14]: /images/posts/jdk_install/14.png
+[pt_15]: /images/posts/jdk_install/15.png
+[pt_16]: /images/posts/jdk_install/16.png
+[pt_17]: /images/posts/jdk_install/17.png
+[pt_18]: /images/posts/jdk_install/18.png
+[pt_19]: /images/posts/jdk_install/19.png
