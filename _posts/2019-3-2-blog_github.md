@@ -181,4 +181,18 @@ git pull origin master
 
 写到这里也差不多了，这是我的第一篇博客，文中如有不正确的地方，欢迎与我联系或是留言评论~
 
+---
+2019.7.29
+
+时隔几个月，我的电脑由于某些原因造成不得已重装系统，因此也不得不重新安装一遍Jekyll，这次又出现了新的问题，所以我进来更新一下问题。   
+
+按照我之前写的步骤安装完成之后，输入`jekyll server`会报错，如下图所示：  
+
+![](/images/posts/blog/15.png)
+
+各种百度无果，直到我发现了这位大牛的博客：[https://blog.csdn.net/xftony/article/details/80536507](https://blog.csdn.net/xftony/article/details/80536507)  
+
+大致意思就是说安装Jekyll之后需要安装其他插件，至于安装什么插件，这需要看博客中`_config.yml`文件中的配置，
+
+
 转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/03/blog_github/) 
