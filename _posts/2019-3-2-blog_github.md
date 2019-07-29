@@ -192,7 +192,36 @@ git pull origin master
 
 各种百度无果，直到我发现了这位大牛的博客：[https://blog.csdn.net/xftony/article/details/80536507](https://blog.csdn.net/xftony/article/details/80536507)  
 
-大致意思就是说安装Jekyll之后需要安装其他插件，至于安装什么插件，这需要看博客中`_config.yml`文件中的配置，
+大致意思就是说安装Jekyll之后需要安装其他插件，至于安装什么插件，这需要看博客中`_config.yml`文件中的配置，  
 
+在该配置文件中会有这样的一句设定：`gems: [jekyll-paginate,jekyll-sitemap]`  
+
+这句就是指定了用什么样的gem插件，知道了用什么插件之后，接下来就是安装了：
+
+```
+gem install jekyll-paginate jekyll-sitemap jekyll-feed
+gem install jemoji
+...
+```
+
+安装之后：
+
+![](/images/posts/blog/16.png)
+
+安装之后就不会报错了!!!
+
+![](/images/posts/blog/17.png)
+
+看到那位大牛老哥里面还有其他的东西，我就先“抄”下来做下记录，以防以后需要：
+
+更新gem源：
+
+```
+gem sources --remove https://rubygems.org/
+gem sources -a https://ruby.taobao.org/
+gem update --system
+```
+
+等以后有机会再重装的时候再过来补充吧~
 
 转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/03/blog_github/) 
