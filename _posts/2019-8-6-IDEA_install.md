@@ -79,39 +79,30 @@ tag: python
    **注：红圈中的路径改为自己的安装路径。**  
   
 10. 双击图标，点击OK。  
-   
    ![][pt_10]  
    
 11. 点击“skip Remaining and Sets Defaults”。  
-   
    ![][pt_11]  
    
 12. 选择Activation code，将代码复制进去，点击OK。  
-   
    ![][pt_12]  
    
 13. 点击“Create New Project”。  
-   
    ![][pt_13]  
    
 14. 按图所示，点击Java，在New中选择一开始安装的jre1.8，点击next。  
-   
    ![][pt_14]  
    
 15. 点击next。  
-  
    ![][pt_15]  
   
 16. 第一行是项目名称，第二行是项目路径，可自行更改，点击Finish。  
-  
    ![][pt_16]  
   
 17. 点击“Show tips on startup”，再点击Close即可。  
-  
    ![][pt_17]  
   
 18. 将文件resources_cn_IntelliJIDEA_2018.1_r2复制到安装路径下的lib文件夹中。  
-  
    ![][pt_18]  
   
 转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/06/OOP_05/)   
