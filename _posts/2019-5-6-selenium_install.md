@@ -65,6 +65,36 @@ driver = webdriver.Chrome()
 
 ![][pt_07]
 
+---
+2019-08-06  
+
+由于被重装系统，因此需要重新安装一遍selenium，我发现按照上述过程会出现以下报错：  
+
+![][pt_08]
+
+上述报错的原因是由于chromedriver所在路径没有被放入环境变量中，有两种方法可以解决：
+
+1. 将路径放入环境变量中，步骤如下：   
+
+   1. 此电脑右击选择属性，再点击高级系统设置。  
+      ![][pt_09]  
+	  
+   2. 点击环境变量。  
+      ![][pt_10]  
+	  
+   3. 找到path双击。  
+      ![][pt_11]  
+	  
+   4. 在末尾空白的行上双击进入到编辑模式，再将chromedriver的路径复制过来，然后点击确认即可。  
+      ![][pt_12]  
+	  
+   5. 接下来重启一下spyder或者其他你们使用的编译器就好了。  
+
+2. 将chrome driver放入已经存在环境变量当中的路径当中，至于什么路径存在可以参照上面的方法，上面添加路径的地方也会显示其他存在于环境变量中的路径，选一个即可。  
+
+第一次写文章时因为Google那个路径已经存在于环境变量中，因此没有出现报错，导致博客有误，敬请见谅！  
+
+
 转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/05/selenium_install/)   
 
 <!--以下是本文用到的链接-->  
@@ -76,4 +106,10 @@ driver = webdriver.Chrome()
 [pt_05]: /images/posts/selenium_install/05.png
 [pt_06]: /images/posts/selenium_install/06.png
 [pt_07]: /images/posts/selenium_install/07.png
+[pt_08]: /images/posts/selenium_install/08.png
+[pt_09]: /images/posts/selenium_install/09.png
+[pt_10]: /images/posts/selenium_install/10.png
+[pt_11]: /images/posts/selenium_install/11.png
+[pt_12]: /images/posts/selenium_install/12.png
+
 [link_chromedriver]: http://npm.taobao.org/mirrors/chromedriver/
