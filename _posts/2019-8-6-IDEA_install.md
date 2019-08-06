@@ -79,25 +79,25 @@ tag: python
    **注：红圈中的路径改为自己的安装路径。**  
   
 10. 双击图标，点击OK。  
-  
+   
    ![][pt_10]  
-  
+   
 11. 点击“skip Remaining and Sets Defaults”。  
-  
+   
    ![][pt_11]  
-  
+   
 12. 选择Activation code，将代码复制进去，点击OK。  
-  
+   
    ![][pt_12]  
-  
+   
 13. 点击“Create New Project”。  
-  
+   
    ![][pt_13]  
-  
+   
 14. 按图所示，点击Java，在New中选择一开始安装的jre1.8，点击next。  
-  
+   
    ![][pt_14]  
-  
+   
 15. 点击next。  
   
    ![][pt_15]  
