@@ -126,6 +126,7 @@ plt.imshow(dst_mask2)
 ```
 
 kernel是后面图片进行膨胀计算的核，值为一个矩阵：  
+
 $$
 \begin{bmatrix}
 0&1&0\\
