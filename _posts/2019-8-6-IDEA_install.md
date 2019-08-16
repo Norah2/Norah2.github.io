@@ -127,3 +127,4 @@ tag: python
 [pt_16]: /images/posts/IDEA_install/16.png
 [pt_17]: /images/posts/IDEA_install/17.png
 [pt_18]: /images/posts/IDEA_install/18.png
+[link_01]: https://norah2.github.io/2019/05/jdk_install/
