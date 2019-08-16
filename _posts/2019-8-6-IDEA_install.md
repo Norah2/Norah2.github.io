@@ -105,7 +105,7 @@ tag: python
 18. 将文件resources_cn_IntelliJIDEA_2018.1_r2复制到安装路径下的lib文件夹中。  
    ![][pt_18]  
   
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/06/OOP_05/)   
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/06/IDEA_install/)   
 
 <!--以下是本文用到的链接-->  
 
