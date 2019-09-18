@@ -59,7 +59,7 @@ word embedding将词表示为低维空间中的连续向量，捕捉词汇和语
 
 $$
 \begin{equation}
-Pr[\omega emitted at time t \mid {c_t}]\propto{exp(\langle{c_t, v_\omega}\rangle)}
+Pr[\omega\ emitted\ at\ time\ t\ \mid {c_t}]\propto{exp(\langle{c_t, v_\omega}\rangle)}
 \end{equation}
 $$
 
