@@ -621,11 +621,9 @@ python b.py world.db
 ```
 
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/08/SymPy_Introduce/)   
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/09/read_data/)   
 
 <!--以下是本文用到的链接-->  
 
 [pt_01]: /images/posts/35_read_data/01.png
 [pt_02]: /images/posts/35_read_data/02.png
-[pt_03]: /images/posts/35_read_data/03.png
-[pt_04]: /images/posts/35_read_data/04.png
