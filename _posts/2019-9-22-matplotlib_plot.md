@@ -655,9 +655,7 @@ plt.show()
 
 ![][pt_14]  
 
-<!--
-...
--->
+终于写完了，敲键盘真的会手疼！！敲这个就能花掉一天时间，希望我没有在做无用功吧。  
 
 转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/09/matplotlib_plot/)   
 
