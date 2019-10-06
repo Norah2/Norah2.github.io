@@ -1,7 +1,7 @@
 ---
 layout: post
 title: matplotlib中有关图表的细节设置  
-description:   
+description: 本文中包括如何设置坐标轴标签透明度以及大小、添加线条阴影、添加数据表格、划分子区、定制网格grid、等高线图、填充图表底层区域、极线图。  
 tag: visualization
 ---
 
@@ -215,17 +215,17 @@ subplot派生自Axes，位于subplot实例的规则网络中。我们将要解�
 
 子区的基类是matplotlib.axes.SubplotBase。子区是matplotlib.axes.Axes的实例，但提供了helper方法来生成和操作图表中一系列Axes。  
 
-有一个名为matplotlib.figure.SubplotParams的类，它包括subplot的所有参数。尺寸是被归一化的图表的宽度或者高度。如果不指定任何定制化的值，subplot将会从rc参数中读取参数值。  
+有一个名为`matplotlib.figure.SubplotParams`的类，它包括subplot的所有参数。尺寸是被归一化的图表的宽度或者高度。如果不指定任何定制化的值，subplot将会从rc参数中读取参数值。  
 
 脚本层（matplotlib.pyplot）有操作子区的一些helper方法。  
 
-matplotlib.pyplot.subplots可以方便地创建普通布局的子区，我们可以指定网格的大小——子区网格的行数和列数。  
+`matplotlib.pyplot.subplots`可以方便地创建普通布局的子区，我们可以指定网格的大小——子区网格的行数和列数。  
 
 我们可以创建共享x或者y轴的子区，这通过使用sharex或者sharey关键字参数来完成。sharex参数可以设置为True，这样x轴就被所有的子区共享。这样一来，刻度和标签只在最后一行的子区上可见。它们也可以设置为字符串，枚举值如：row、col、all或者none。值all和True相同；值none和False相同；如果设置为row，则每一个子区行共享x轴坐标；如果设置为col，则每一个子区列共享y轴坐标。  
 
-matplotlib.pyplot.subplots方法返回一个(fig, ax)元组，其中ax可以是一个坐标轴实例。当创建多个子区时，ax是一个坐标轴实例的数组。  
+`matplotlib.pyplot.subplots`方法返回一个(fig, ax)元组，其中ax可以是一个坐标轴实例。当创建多个子区时，ax是一个坐标轴实例的数组。  
 
-我们用matplotlib.pyplot.subplots_adjust来调整子区的布局。关键字参数指定了图表中子区的坐标（left、right、bottom、top），其值是归一化的图表大小的值。可以用wspace和hspace参数指定子区间空白区域的大小，参数值为相应宽度和高度的归一化值。  
+我们用`matplotlib.pyplot.subplots_adjust`来调整子区的布局。关键字参数指定了图表中子区的坐标（left、right、bottom、top），其值是归一化的图表大小的值。可以用wspace和hspace参数指定子区间空白区域的大小，参数值为相应宽度和高度的归一化值。  
 
 ```python
 import matplotlib.pyplot as plt
@@ -266,7 +266,9 @@ axes.figure.canvas.draw()
 ### 定制化表格  
 
 在线条或者图表下面添加网格是非常有用的，我们可以使用matplotlib.pyplot.grid来设置网格的可见度、密度和风格，或者是否显示网格。  
+
 本节讲解如何打开或关闭网格，以及如何改变网格上的主刻度和次刻度。  
+
 最常用的网格定制化功能可以用matplotlib.pyplot.grid辅助函数来完成。  
 
 ```python
@@ -367,7 +369,7 @@ Z矩阵的等高线图有许多等高线表示，这里的Z被视为相对于X-Y
 
 函数`contour()`会猜测出将绘制的等高线数量，但也可以指定等高线数量。  
 
-在matplotlib中，使用matplotlib.pyplot.contour绘制等高线图。  
+在matplotlib中，使用`matplotlib.pyplot.contour`绘制等高线图。  
 
 两个相似的函数：`contour()`绘制等高线，`contourf()`绘制填充的等高线。  
 
@@ -418,9 +420,9 @@ plt.show()
 
 ![][pt_10]  
 
-在对process_signals函数求值并将其存储在Z之后，简单的调用contour，并传入Z和等高线水平数量。  
+在对`process_signals`函数求值并将其存储在Z之后，简单的调用contour，并传入Z和等高线水平数量。  
 
-可以尝试用N arange()调用中的第三个参数做个实验。尝试相同数据进行不同编码会有何差异。  
+可以尝试用`N arange()`调用中的第三个参数做个实验。尝试相同数据进行不同编码会有何差异。  
 
 此外，传入了一个CS（matplotlib.contour.QuadContourSet实例）向图表添加了一个颜色映射表。  
 
@@ -430,7 +432,7 @@ plt.show()
 
 该方法接收与matplotlib.pyplot.plot相似的参数，即多个x、y对和其他Line2D属性。方法返回被添加的Patch实例的列表。  
 
-除了如histogram()等固有的绘制闭合的、填充多边形的绘图函数之外，matplotlib.fill_between()和matplotlib.pyplot.fill_betweenx()函数。这些方法用于填充两条曲线间的多边形区域。fill_between()和fill_betweenx()主要的区别是后者填充x轴的值之间的区域，而前者填充y轴的值之间的区域。  
+除了如`histogram()`等固有的绘制闭合的、填充多边形的绘图函数之外，`matplotlib.fill_between()`和`matplotlib.pyplot.fill_betweenx()`函数。这些方法用于填充两条曲线间的多边形区域。`fill_between()`和`fill_betweenx()`主要的区别是后者填充x轴的值之间的区域，而前者填充y轴的值之间的区域。  
 
 代码如下：  
 
@@ -489,17 +491,17 @@ plt.show()
 
 之外，该示例创建了两个子区，用来比较两种渲染填充区域方式的差异。  
 
-在这两种情况下，我们使用了带参数where的fill_between()方法填充where等于True的区域，其中where参数接受一个长度为N的布尔数组。  
+在这两种情况下，我们使用了带参数where的`fill_between()`方法填充where等于True的区域，其中where参数接受一个长度为N的布尔数组。  
 
-下面的子区演示了mask_greater，它屏蔽了数组中大于给定值的所有制。这是numpy.ma中的一个方法，用来处理缺失或者无效的值。我们在底部的坐标轴上添加网格使其更加直观。  
+下面的子区演示了`mask_greater`，它屏蔽了数组中大于给定值的所有制。这是numpy.ma中的一个方法，用来处理缺失或者无效的值。我们在底部的坐标轴上添加网格使其更加直观。  
 
 ### 绘制极线图  
 
 为了在极坐标下显示数据，我们必须有合适的数据值。在极坐标系统中，点被描述为半径距离（通常表示为r）和角度（通常表示为theta）。角度可以用弧度或者角度表示，但是在matplotlib使用角度表示。  
 
-我们需要告诉matplotlib坐标轴要在极坐标系统中。这通过向add_axes或add_subplot提供polar=True参数来完成。  
+我们需要告诉matplotlib坐标轴要在极坐标系统中。这通过向`add_axes`或`add_subplot`提供`polar=True`参数来完成。  
 
-此外，为了设置图表中的其他属性，如半径网格或者角度，我们需要使用matplotlib.pyplot.rgrids()来切换半径网格的显示或者设置标签。同样，需要使用matplotlib.pyplot.thetagrid()来配置角度刻度和标签。  
+此外，为了设置图表中的其他属性，如半径网格或者角度，我们需要使用matplotlib.pyplot.rgrids()来切换半径网格的显示或者设置标签。同样，需要使用`matplotlib.pyplot.thetagrid()`来配置角度刻度和标签。  
 
 ```python
 import numpy as np
@@ -529,7 +531,7 @@ plt.show()
 ![][pt_13]  
 
 首先，创建一个正方形的图表，并向其添加极坐标轴。其实图表不必是正方形的，但是如果不这样的话，极线图便是椭圆形（而不是圆形）的。
-然后，为角度（theta）集合极线距离（radii）生成随机值。因为绘制的是极线条，需要给定每一个极线条一个宽度集合，这就需要生成一些宽度值。因为matplotlib.axes.bar接收值的数组（几乎matplotlib中所有的绘图函数都是如此），所以不必在这个生成的数据集合上做循环遍历，只需要调用bar函数并传入所有的参数即可。
+然后，为角度（theta）集合极线距离（radii）生成随机值。因为绘制的是极线条，需要给定每一个极线条一个宽度集合，这就需要生成一些宽度值。因为m`atplotlib.axes.bar`接收值的数组（几乎matplotlib中所有的绘图函数都是如此），所以不必在这个生成的数据集合上做循环遍历，只需要调用bar函数并传入所有的参数即可。
 为了区分每一个极线条，我们需要循环遍历添加到ax（坐标轴）的每一个极线条，并定制化其外观（表面颜色和透明度）。
 
 
