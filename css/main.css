@@ -189,7 +189,7 @@ code {
   border-radius: 3px;
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
   font-size: 1.0em;
-  vertical-align: bottom;
+  vertical-align: bottom; 
   word-wrap: break-word; }
 
 pre {

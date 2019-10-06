@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 利用matplotlib库画图  
-description:   
+description: 利用matplotlib库画基础的柱状图、线型图、堆积柱状图、饼图、直方图、填充区域图表、堆积图、带彩色标记的散点图等等，还记录了有关图表的线型、属性、格式化字符的参数值以及说明；同时还讲解了怎么移动轴线、添加误差线、添加图例、刻度、刻度标签、网格等等部件。  
 tag: visualization
 ---
 
