@@ -358,7 +358,7 @@ g.set(xscale="log")
 
 参考文献：  
 
-http://seaborn.pydata.org/tutorial/relational.html  
+http://seaborn.pydata.org/tutorial/categorical.html  
 
 
 
