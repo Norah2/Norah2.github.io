@@ -33,7 +33,7 @@ $$
 
 ### Related Works  
 
-#### Wrod embedding  
+#### Word embedding  
 
 word embedding将词表示为低维空间中的连续向量，捕捉词汇和语义特性，它们可以从文本的神经网络模型的内部表示得到(Bengio et al., 2003; Collobert & Weston, 2008; Mikolov et al., 2013a)或通过共现统计学的低秩近似(Deerwester et al., 1990; Pennington et al., 2014)。这两种方法是密切相关的(Levy & Goldberg, 2014; Hashimoto et al., 2016; Arora et al., 2016)。  
 
