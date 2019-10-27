@@ -20,9 +20,9 @@ tag: Linux
 
 ## 内部命令  
 
-### 登录与注销  
+### 登录、注销与信息查看  
 
-
+1. [每天一个Linux命令：uname][li_01]
 
 ### 目录与文件  
 
@@ -54,17 +54,16 @@ tag: Linux
 
 <!--以下是本文用到的链接-->  
 
-[pt_01]: /images/posts/42_paper_Auto_MLFrame/01.png
-[pt_02]: /images/posts/42_paper_Auto_MLFrame/02.png
-[pt_03]: /images/posts/42_paper_Auto_MLFrame/03.png
-[pt_04]: /images/posts/42_paper_Auto_MLFrame/04.png
-[pt_05]: /images/posts/42_paper_Auto_MLFrame/05.png
-[pt_06]: /images/posts/42_paper_Auto_MLFrame/06.png
-[pt_07]: /images/posts/42_paper_Auto_MLFrame/07.png
-[pt_08]: /images/posts/42_paper_Auto_MLFrame/08.png
-[pt_09]: /images/posts/42_paper_Auto_MLFrame/09.png
-[pt_10]: /images/posts/42_paper_Auto_MLFrame/10.png
-[pt_11]: /images/posts/42_paper_Auto_MLFrame/11.png
-[pt_12]: /images/posts/42_paper_Auto_MLFrame/12.png
-[pt_13]: /images/posts/42_paper_Auto_MLFrame/13.png
-[li_01]: https://arxiv.org/pdf/1808.06492v1.pdf
+[li_01]: https://norah2.github.io/2019/10/Linux01/
+[li_02]: 
+[li_03]: 
+[li_04]: 
+[li_05]: 
+[li_06]: 
+[li_07]: 
+[li_08]: 
+[li_09]: 
+[li_10]: 
+[li_11]: 
+[li_12]: 
+[li_13]: 
