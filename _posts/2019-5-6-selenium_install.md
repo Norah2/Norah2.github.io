@@ -2,7 +2,7 @@
 layout: post
 title: Windows下安装selenium以及chrome driver的安装步骤  
 description: 本文主要写关于selenium的前期安装工作
-tag: python
+tag: Install
 ---
 
 今天介绍一下关于selenium的安装方法：  

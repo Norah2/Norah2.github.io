@@ -2,7 +2,7 @@
 layout: post
 title: IDEA安装教程  
 description: IDEA安装教程以及简单设置内核。  
-tag: Software Install
+tag: Install
 ---
 
 在安装IDEA之前需安装jdk，安装教程可以参照[jdk安装教程][link_01]  

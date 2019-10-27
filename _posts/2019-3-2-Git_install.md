@@ -2,7 +2,7 @@
 layout: post
 title: Git 安装教程
 description: Git + SSH 配置
-tag: Software Install
+tag: Install
 ---
 
 由于篇幅问题，这里又新写了一篇博客用作补充的，这里专门讲如何安装 Git ，外加配置 SSH。
