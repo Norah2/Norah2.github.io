@@ -2,7 +2,7 @@
 layout: post
 title: 基于逻辑回归的心脏病预测  
 description: 本篇主要基于一个心脏病的数据集，根据所具有的多个特征运用逻辑回归进行预测病人是否有心脏病。
-tag: Machine Learning
+tag: ML
 ---
 
 ### 一、引言  

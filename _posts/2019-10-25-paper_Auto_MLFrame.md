@@ -2,7 +2,7 @@
 layout: post
 title: Benchmarking Automatic Machine Learning Frameworks  
 description: 本文记录了笔者阅读的一篇论文Benchmarking Automatic Machine Learning Frameworks，一篇有关于机器学习中AutoML框架的对比分析论文。  
-tag: Machine Learning
+tag: ML
 ---
 
 论文原文：[Benchmarking Automatic Machine Learning Frameworks][li_01]。  
