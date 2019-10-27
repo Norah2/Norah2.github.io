@@ -2,7 +2,7 @@
 layout: post
 title: Seaborn——Visualizeing the distribution of a dataset  
 description: 有关分类变量的绘制  
-tag: visualization
+tag: Visualization
 ---
 
 处理数据时，我们一定会希望在做分析或者处理前能够了解数据的分布情况。  

@@ -2,7 +2,7 @@
 layout: post
 title: Seaborn——Plotting with categorical data  
 description: 有关分类变量的绘制  
-tag: visualization
+tag: Visualization
 ---
 
 当你想展示的变量中其中有一个分类变量，则可以用本篇里面的函数进行绘制图形。  

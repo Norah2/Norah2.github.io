@@ -2,7 +2,7 @@
 layout: post
 title: 各种格式文件的读取操作汇总  
 description: 其中包括csv文件、excel文件、定宽文件、制表符文件、数据库文件以及利用pandas读取文件。  
-tag: visualization
+tag: Visualization
 ---
 
 在看《Python数据可视化编程实战(第2版)》这本书的时候，看到第二章里面读取数据的方法总结了一下，感觉还不错就打算记录下来。  

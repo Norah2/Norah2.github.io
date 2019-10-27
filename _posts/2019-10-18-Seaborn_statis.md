@@ -2,7 +2,7 @@
 layout: post
 title: Seaborn——Visualizing statistical relationship  
 description: 有关统计关系图的绘制  
-tag: visualization
+tag: Visualization
 ---
 
 距离上次写博客已经过去10天了，对于这件事我需要很认真的反省一下，这些天我一直在背六级英语单词以及写课程作业，对于课外的专业知识的学习耽搁了很久，以至于时隔这么久我现在坐在电脑前不知道写一些什么东西。对于今天出现的情况我很严肃的对自己说，这样的情况我不希望看到第二次。  
