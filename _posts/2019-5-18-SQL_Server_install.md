@@ -2,7 +2,7 @@
 layout: post
 title: SQL Server 安装教程  
 description: sql server 的安装教程
-tag: Database
+tag: Software Install
 ---
 
 这两天安装了个数据库，就顺便写个教程，数据库是SQL server。安装环境是Windows server 10。    

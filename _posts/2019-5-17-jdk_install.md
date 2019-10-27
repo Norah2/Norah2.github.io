@@ -2,7 +2,7 @@
 layout: post
 title: jdk 安装教程  
 description: jdk 安装教程
-tag: Database
+tag: Software Install
 ---
 
 有很多软件的适用于运行都需要基于Java的环境，这两天安装了SQL Server数据库就需要基于Java的环境，下面是安装教程：  
