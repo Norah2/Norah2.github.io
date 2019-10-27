@@ -22,7 +22,7 @@ tag: Linux
 
 ### 登录、注销与信息查看  
 
-1. [每天一个Linux命令：uname][li_01]
+1. [每天一个Linux命令(1)：uname][li_01]
 
 ### 目录与文件  
 
