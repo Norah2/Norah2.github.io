@@ -22,7 +22,12 @@ tag: Linux
 
 ### 登录、注销与信息查看  
 
-1. [每天一个Linux命令(1)：uname][li_01]
+1. [每天一个Linux命令(1)：uname][li_01]  
+
+2. [每天一个Linux命令(2)：date][li_02]  
+
+3. [每天一个Linux命令(3)：cal][li_03]  
+
 
 ### 目录与文件  
 
@@ -55,8 +60,8 @@ tag: Linux
 <!--以下是本文用到的链接-->  
 
 [li_01]: https://norah2.github.io/2019/10/Linux01/
-[li_02]: 
-[li_03]: 
+[li_02]: https://norah2.github.io/2019/10/Linux02/
+[li_03]: https://norah2.github.io/2019/10/Linux03/
 [li_04]: 
 [li_05]: 
 [li_06]: 
