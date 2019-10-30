@@ -28,6 +28,7 @@ tag: Linux
 
 3. [每天一个Linux命令(3)：cal][li_03]  
 
+4. [每天一个Linux命令(4)：su][li_04]  
 
 ### 目录与文件  
 
@@ -62,7 +63,7 @@ tag: Linux
 [li_01]: https://norah2.github.io/2019/10/Linux01/
 [li_02]: https://norah2.github.io/2019/10/Linux02/
 [li_03]: https://norah2.github.io/2019/10/Linux03/
-[li_04]: 
+[li_04]: https://norah2.github.io/2019/10/Linux04/
 [li_05]: 
 [li_06]: 
 [li_07]: 
