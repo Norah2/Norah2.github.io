@@ -30,6 +30,9 @@ tag: Linux
 
 4. [每天一个Linux命令(4)：su][li_04]  
 
+5. [每天一个Linux命令(5)：passwd][li_05]  
+
+
 ### 目录与文件  
 
 
@@ -64,7 +67,7 @@ tag: Linux
 [li_02]: https://norah2.github.io/2019/10/Linux02/
 [li_03]: https://norah2.github.io/2019/10/Linux03/
 [li_04]: https://norah2.github.io/2019/10/Linux04/
-[li_05]: 
+[li_05]: https://norah2.github.io/2019/10/Linux05/
 [li_06]: 
 [li_07]: 
 [li_08]: 
