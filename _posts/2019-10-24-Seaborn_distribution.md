@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Seaborn——Visualizeing the distribution of a dataset  
+title: Seaborn——Visualizing the distribution of a dataset  
 description: 有关分类变量的绘制  
 tag: Visualization
 ---
