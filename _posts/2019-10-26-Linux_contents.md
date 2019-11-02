@@ -37,6 +37,7 @@ tag: Linux
 
 ### 目录与文件  
 
+7. [每天一个Linux命令(7)：pwd][li_07]  
 
 
 ### 文件内容显示  
@@ -71,7 +72,7 @@ tag: Linux
 [li_04]: https://norah2.github.io/2019/10/Linux04/
 [li_05]: https://norah2.github.io/2019/10/Linux05/
 [li_06]: https://norah2.github.io/2019/11/Linux06/
-[li_07]: 
+[li_07]: https://norah2.github.io/2019/11/Linux07/
 [li_08]: 
 [li_09]: 
 [li_10]: 
