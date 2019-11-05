@@ -41,6 +41,11 @@ tag: Linux
 
 8. [每天一个Linux命令(8)：cd][li_08]  
 
+9. [每天一个Linux命令(9)：ls][li_09]  
+
+10. [每天一个Linux命令(10)：cp][li_10]  
+
+
 ### 文件内容显示  
 
 
@@ -75,8 +80,8 @@ tag: Linux
 [li_06]: https://norah2.github.io/2019/11/Linux06/
 [li_07]: https://norah2.github.io/2019/11/Linux07/
 [li_08]: https://norah2.github.io/2019/11/Linux08/
-[li_09]: 
-[li_10]: 
+[li_09]: https://norah2.github.io/2019/11/Linux09/
+[li_10]: https://norah2.github.io/2019/11/Linux10/
 [li_11]: 
 [li_12]: 
 [li_13]: 
