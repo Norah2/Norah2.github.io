@@ -45,6 +45,10 @@ tag: Linux
 
 10. [每天一个Linux命令(10)：cp][li_10]  
 
+11. [每天一个Linux命令(11)：mkdir][li_11]  
+
+12. [每天一个Linux命令(12)：mv][li_12]  
+
 
 ### 文件内容显示  
 
@@ -82,6 +86,6 @@ tag: Linux
 [li_08]: https://norah2.github.io/2019/11/Linux08/
 [li_09]: https://norah2.github.io/2019/11/Linux09/
 [li_10]: https://norah2.github.io/2019/11/Linux10/
-[li_11]: 
-[li_12]: 
+[li_11]: https://norah2.github.io/2019/11/Linux11/
+[li_12]: https://norah2.github.io/2019/11/Linux12/
 [li_13]: 
