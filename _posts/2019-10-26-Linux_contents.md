@@ -49,6 +49,8 @@ tag: Linux
 
 12. [每天一个Linux命令(12)：mv][li_12]  
 
+13. [每天一个Linux命令(13)：touch][li_13]  
+
 
 ### 文件内容显示  
 
@@ -88,4 +90,4 @@ tag: Linux
 [li_10]: https://norah2.github.io/2019/11/Linux10/
 [li_11]: https://norah2.github.io/2019/11/Linux11/
 [li_12]: https://norah2.github.io/2019/11/Linux12/
-[li_13]: 
+[li_13]: https://norah2.github.io/2019/11/Linux13/
