@@ -51,6 +51,8 @@ tag: Linux
 
 13. [每天一个Linux命令(13)：touch][li_13]  
 
+14. [每天一个Linux命令(13)：rm][li_14]  
+
 
 ### 文件内容显示  
 
@@ -91,3 +93,10 @@ tag: Linux
 [li_11]: https://norah2.github.io/2019/11/Linux11/
 [li_12]: https://norah2.github.io/2019/11/Linux12/
 [li_13]: https://norah2.github.io/2019/11/Linux13/
+[li_14]: https://norah2.github.io/2019/11/Linux14/
+[li_15]: https://norah2.github.io/2019/11/Linux15/
+[li_16]: https://norah2.github.io/2019/11/Linux16/
+[li_17]: https://norah2.github.io/2019/11/Linux17/
+[li_18]: https://norah2.github.io/2019/11/Linux18/
+[li_19]: https://norah2.github.io/2019/11/Linux19/
+[li_20]: https://norah2.github.io/2019/11/Linux20/
