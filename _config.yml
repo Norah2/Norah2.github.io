@@ -14,14 +14,14 @@ url: "https://norah2.github.io/" # the base hostname & protocol for your site
 permalink: /:year/:month/:day/:title/
 
 # other links
-twitter_username:
-facebook_username: 
+# twitter_username:
+# facebook_username: 
 github_username:  norah2
 email: 2238708584@qq.com
-weibo_username: 
-zhihu_username: 
-linkedIn_username: 
-dribbble_username:
+# weibo_username: 
+# zhihu_username: 
+# linkedIn_username: 
+# dribbble_username:
 
 description_footer: 当你的才华撑不起你的野心时，只有静下心来好好学习！RUI
 
