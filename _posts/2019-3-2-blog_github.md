@@ -4,8 +4,15 @@ title: GitHub Pages + Jekyll 搭建博客
 date: 2019-03-02
 description: GitHub Pages / Jekyll
 categories: blog
-tags: blog jekyll Github Pages
+tags: blog jekyll GithubPages
 ---
+
+* content
+{:toc}
+
+使用Jekyll在Github Pages上搭建属于自己的博客。
+
+{% raw %}
 
 在一年之前我看到我仰慕的一个大牛学长拥有自己的域名，并且租服务器搭建了属于自己的网站后，就十分向往能拥有一个自己的域名和网站，这也就成为了我的一个小目标。但是由于各种因素导致这仍旧只是我手账本上的一个 flag 。
 
@@ -13,7 +20,7 @@ tags: blog jekyll Github Pages
 
 初次搭建博客，还请大家可以在评论区里留言，多多指教 ~~
 
-## 现在细数一下我搭建博客一路踩过的坑
+现在细数一下我搭建博客一路踩过的坑
 
 下面是整个的流程：
 
@@ -26,37 +33,35 @@ tags: blog jekyll Github Pages
 7. 编辑项目中的文档  
 8. 撰写博客  
 
-### Github账号注册
+## Github账号注册
 
 账号注册没有难度，和一般的账号注册没什么太大的区别。
 
-### 安装Git
+## 安装Git
 
 我的账号是在半年前注册的，注册之后就安装了Git，那时还没有博客，因此现在只能略讲。
 
 > [Git安装教程 + SSH 配置](https://norah2.github.io/2019/03/Git_install/)
 
-### 学习搭建项目
+## 学习搭建项目
 
 （这里和搭建博客没有太大关系，算是一个基础。）
 
 点击  your profile  就可以进入到自己的个人资料页面，接下来点击 Repositories 就能看到你所拥有的全部项目。
 
-![](/images/posts/blog/01.png)
-![RzjctA.png](https://z3.ax1x.com/2021/07/10/RzjctA.png)
-
+[![RzjctA.png](https://z3.ax1x.com/2021/07/10/RzjctA.png)](https://imgtu.com/i/RzjctA)
 
 点击右上角的 new 就可以新建一个仓库。
 
-![](/images/posts/blog/02.png)
+[![RzjsTH.png](https://z3.ax1x.com/2021/07/10/RzjsTH.png)](https://imgtu.com/i/RzjsTH)
 
 
 按照图片设置好之后，点击 `create repository` 即可新建一个项目。
 
-![](/images/posts/blog/03.png)
+[![Rzjr0e.png](https://z3.ax1x.com/2021/07/10/Rzjr0e.png)](https://imgtu.com/i/Rzjr0e)
 
 
-### 安装 `Jekyll`
+## 安装 `Jekyll`
 
 首先进入 [rubyInstall官网](https://rubyinstaller.org/downloads/)，点击下载安装包。安装一路next即可。
 
@@ -70,7 +75,8 @@ ruby仅仅只是给 Jekyll 搭建了一个环境，这时我们还需要借助�
 ruby setup.rb
 ```
 然后只需要等着，出现下面这个就安装成功了。如果没有成功的话可以看报错提示或者百度自行安装。
-![](/images/posts/blog/15.png)
+
+[![Rzj7kj.png](https://z3.ax1x.com/2021/07/10/Rzj7kj.png)](https://imgtu.com/i/Rzj7kj)
 
 接下来用 gem 安装 Jekyll
 
@@ -83,13 +89,13 @@ jekyll -v
 ```
 出现这个就表示已经安装成功（版本号可能会有不同）
 
-![](/images/posts/blog/05.png)
+[![Rzj0OO.png](https://z3.ax1x.com/2021/07/10/Rzj0OO.png)](https://imgtu.com/i/Rzj0OO)
 
-#### 这里插入一段安装Jekyll的报错
+### 这里插入一段安装Jekyll的报错
 	
 安装完 Jekyll ，输入命令 `jekyll server` 想尝试一下，结果发现报错。
 
-![](/images/posts/blog/09.png)
+[![Rzjf6f.png](https://z3.ax1x.com/2021/07/10/Rzjf6f.png)](https://imgtu.com/i/Rzjf6f)
 
 百度之后说是要安装 bundle ，那就来试试吧！ 
 
@@ -97,54 +103,54 @@ jekyll -v
 bundle install
 ```
 
-![](/images/posts/blog/10.png)
+[![RzjW1P.png](https://z3.ax1x.com/2021/07/10/RzjW1P.png)](https://imgtu.com/i/RzjW1P)
 
 安装完成之后，继续运行 `jekyll server`，然而仍旧报错……
 
-![](/images/posts/blog/11.png)
+[![Rzj5nS.png](https://z3.ax1x.com/2021/07/10/Rzj5nS.png)](https://imgtu.com/i/Rzj5nS)
 
 最终 get 到了正确的方法：
 
 >这个错误的重点在Could not find ffi-1.9.18，使用gem list查看你安装的ffi版本，应该不是1.9.18版本。
 
->解决办法：
+### 解决办法：
 
 >打开目录下的Gemfile.lock文件，找到修改对应的版本号，修改为你电脑安装的版本就可以了。
 
 然后就开始修改 Gemfile.lock 中的内容，并且重新再来一次 `bundle install`:
 
-![](/images/posts/blog/12.png)
+[![RzjhX8.png](https://z3.ax1x.com/2021/07/10/RzjhX8.png)](https://imgtu.com/i/RzjhX8)
 
 终于安装好了，然而……
 
-![](/images/posts/blog/13.png)
+[![RzjI0g.png](https://z3.ax1x.com/2021/07/10/RzjI0g.png)](https://imgtu.com/i/RzjI0g)
 
 根据提示，仍旧不死心的继续尝试 ：
 
-![](/images/posts/blog/14.png)
+[![Rzjo7Q.png](https://z3.ax1x.com/2021/07/10/Rzjo7Q.png)](https://imgtu.com/i/Rzjo7Q)
 
 终于搞定！！！
 
 
-### 搭建博客
+## 搭建博客
 
 搭建博客有很多种办法，尤其在 GitHub Pages 自由度很高的网站上，整个网站任何一个地方都可以自己设置，不受其他的限制。一般常见的就是 Jekyll 工具和 hexo工具，Jekyll 工具是 github pages 推荐的一个工具。（你以为我是因为这个才选择用 Jekyll 的吗？工具自然是好用最为重要，但是在我浏览过大量其他人的博客时，被推荐的较多的是 hexo 方法，我自然首先将矛头转向 hexo， 但是由于路途艰难，最终放弃了，果然是 Jekyll 更适合我这种小白，两个字：简单！！）由于本身也是一个小白，所以下面只介绍自己用的最简单的方法。
 
 当你已经把 Jekyll 安装好之后，在 [Jekyll Theme 官网](http://jekyllthemes.org/) 上面选择自己喜欢的主题风格。
 
-![](/images/posts/blog/06.png)
+[![Rzj6kd.png](https://z3.ax1x.com/2021/07/10/Rzj6kd.png)](https://imgtu.com/i/Rzj6kd)
 
 选择好一个主题后点进去，点击 `HomePage` ，这时进入了存储这个博客模板项目的 GitHub 仓库里。
 
-![](/images/posts/blog/07.png)
+[![RzjRpt.png](https://z3.ax1x.com/2021/07/10/RzjRpt.png)](https://imgtu.com/i/RzjRpt)
 
 接下来点击右上角的 `Fork` 按钮，这时这个项目就会被复制到自己的仓库中。从自己的账号中进入到这个仓库中，点击 `setting` ，下面的 Github Pages 里面有一个域名。可以通过这个域名看到自己博客现在的模样。
 
-![](/images/posts/blog/08.png)
+[![RzjgfI.png](https://z3.ax1x.com/2021/07/10/RzjgfI.png)](https://imgtu.com/i/RzjgfI)
 
 这时博客已经初步搭建好了，接下来就是如何按照自己的意愿更改其中的细节使之完完全全成为自己的博客，并且要知道如何管理以及往上面发文章。
 
-### 将项目复制到本p地
+## 将项目复制到本地
 
 这个过程对于已经学习过 Git 的读者来说，是很简单的，这里也只是简略的提及一下。
 
@@ -169,13 +175,13 @@ git pull origin master
 
 这时，我们已经把所有的文件全部拷贝到本地了。
 
-### 对项目其中某些文件进行更改
+## 对项目其中某些文件进行更改
 
 主要修改的就是_config.yml中的文件，这里附上官方中文文档的链接：[配置](https://www.jekyll.com.cn/docs/configuration/)
 
 具体的就不再详述~
 
-### 写博客
+## 写博客
 
 在放博客项目的文件夹里创建一个文件夹 `_post`，将写的md文件放在此目录下即可。
 
@@ -190,7 +196,7 @@ git pull origin master
 
 按照我之前写的步骤安装完成之后，输入`jekyll server`会报错，如下图所示：  
 
-![](/images/posts/blog/15.png)
+[![Rzj7kj.png](https://z3.ax1x.com/2021/07/10/Rzj7kj.png)](https://imgtu.com/i/Rzj7kj)
 
 各种百度无果，直到我发现了这位大牛的博客：[https://blog.csdn.net/xftony/article/details/80536507](https://blog.csdn.net/xftony/article/details/80536507)  
 
@@ -208,11 +214,11 @@ gem install jemoji
 
 安装之后：
 
-![](/images/posts/blog/16.png)
+[![RzjHts.png](https://z3.ax1x.com/2021/07/10/RzjHts.png)](https://imgtu.com/i/RzjHts)
 
 安装之后就不会报错了!!!
 
-![](/images/posts/blog/17.png)
+[![Rzjbhn.png](https://z3.ax1x.com/2021/07/10/Rzjbhn.png)](https://imgtu.com/i/Rzjbhn)
 
 看到那位大牛老哥里面还有其他的东西，我就先“抄”下来做下记录，以防以后需要：
 
@@ -227,3 +233,12 @@ gem update --system
 等以后有机会再重装的时候再过来补充吧~
 
 转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/03/blog_github/) 
+
+<!--
+04
+[![RzjDmD.png](https://z3.ax1x.com/2021/07/10/RzjDmD.png)](https://imgtu.com/i/RzjDmD)
+
+18
+[![RzjLpq.png](https://z3.ax1x.com/2021/07/10/RzjLpq.png)](https://imgtu.com/i/RzjLpq)
+-->
+{% endraw %}
