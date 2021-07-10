@@ -2,7 +2,6 @@
 layout: post
 title: Git 安装教程
 date: 2019-03-02
-description: Git + SSH 配置
 categories: blog
 tags: Git Install Software SSH Configure
 ---
