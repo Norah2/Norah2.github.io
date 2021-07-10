@@ -9,6 +9,219 @@ type: page
 * content
 {:toc}
 
+## 数据集 & 项目
+
+* [Github](https://github.com/)
+
+	非常经典的社区，基本上资料都可以找得到，但是因为服务器不在境内，所以访问速度很限制。
+
+* [Gitee](https://gitee.com/)
+
+	属于中国，github的仿版。
+
+* [Kaggle](https://www.kaggle.com/)
+
+	数据集比较多，但是用的时候一定要保证可以科学上网。
+
+* [UCI](http://archive.ics.uci.edu/ml/datasets.php)
+
+	其中集成多个数据集。
+
+* [seaborn-data(github)](https://github.com/mwaskom/seaborn-data)
+
+	sklearn中的公开数据集，如果库中自带的数据下载源不好用，可以在这里下载完成之后放在指定的地方。
+
+* [Quandl](https://www.quandl.com/)
+
+	Quandl是为投资专业人士提供金融，经济和替代数据的首选平台，拥有海量的经济和金融数据。Python有Quandl模块，通过Quandl模块可直接使用平台上的数据。Quandl包可以访问平台上所有免费的数据，但不是所有的数据都是免费的，部分数据需要付费才能使用。
+	具体用法：[Quandl模块教程](https://zhuanlan.zhihu.com/p/41063833)
+
+* [AI研习社](https://www.yanxishe.com/dataSet)
+
+	也包含了很多关于大数据的数据集，还有竞赛、课程、论文、直播、刷题等等。
+
+* [清博指数](http://hao.gsdata.cn/dsj/)
+
+	重点研究关于指数方面的案例。
+
+* [天池](https://tianchi.aliyun.com/)
+
+	集成关于大数据的项目、数据集、竞赛等等，用的很少，我感觉不够权威，资历也尚浅。
+
+## 查文献 & 期刊论文
+
+* [JMLR](https://www.jmlr.org/)
+
+	人工智能领域的论文，会实时更新近期论文，目前降到四区。
+
+* [IEEE](https://www.ieee.org/)
+
+	很权威的期刊
+
+* [iData](https://www.cn-ki.net/)
+
+* [Open Access Library](https://www.oalib.com/)
+
+* [zLibrary](https://1lib.domains/?redirectUrl=/)
+
+* [浙江图书馆](https://www.zjlib.cn/)
+
+* [FindArticles](http://findarticles.com/)
+
+* [Library Genesis](http://libgen.rs/)
+
+* [Knovel](https://app.knovel.com/kn)
+
+* [求学图书馆](http://www.caj11.com/)
+
+	会员便宜，里面的论文资料基本上够大学使用。
+
+* [ELSEVIER](https://www.elsevier.com/catalog?producttype=journal)
+
+* [arXiv](https://arxiv.org/)
+
+	有很多论文的pdf，大多数是英文的，一般用google才能搜得出来。
+
+* [异步社区](https://www.epubit.com/)
+
+	搜书的电子版
+
+## 资料 & 资讯
+
+* [移动观象台](http://mi.talkingdata.com/)
+
+* [CNNIC](http://www.cnnic.cn/#)
+
+	中国互联网络信息中心
+
+* [艾瑞网](https://www.iresearch.cn/mindex.shtml)
+
+	里面有多个行业和方向的报告或者白皮书。
+
+* [武汉市统计局](http://tjj.wuhan.gov.cn/)
+
+	可以获取GDP等政府类的数据，以及白皮书官方资讯报告等。
+
+## 可视化
+
+* [pyecharts](https://pyecharts.org/)
+
+	代码手册，包含多个可视化样例，更加适合嵌入网页做交互式可视化图表，对统计分析不友好，其中函数都没有增加计算功能，不能直接传入数据集，而是要把结果计算好才能传入函数。
+
+* [echarts](https://echarts.apache.org/examples/zh/index.html)
+
+	pyecharts的爸爸，直接在线改数据生成图表，但是不是python语言。
+
+* [material design palette](https://www.materialpalette.com/)
+
+	用来调配色的，在画图的时候可能会用到，一般没太大用处。
+
+* [colorbrewer2](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
+
+	同样用来调配色的。
+
+* [iconfont](https://www.iconfont.cn/)
+
+	找图标用的，当初做了一个离线小游戏，集成为软件的时候用到这个网站。
+
+
+## 文本挖掘相关工具
+
+* [搜狗](https://pinyin.sogou.com/dict/)
+
+	搜狗语料库，有多种分类。
+
+* [hmmlearn](https://hmmlearn.readthedocs.io/en/latest/tutorial.html#available-models)
+
+	hmmlearn库的教程
+
+* [hmmlearn第三方库](https://www.lfd.uci.edu/~gohlke/pythonlibs/#hmmlearn)
+
+	下载whl文件，离线安装
+
+* [wiki](https://dumps.wikimedia.org/zhwiki/)
+
+	维基百科语料库，在持续不断的更新
+
+
+## 工具
+
+* [正则表达式在线工具](https://regexr.com/)
+
+* [正则表达式在线语法](https://regexlib.com/)
+
+* [大数据导航](http://hao.199it.com/)
+
+* [MVNrepository](https://mvnrepository.com/)
+
+	Maven仓库网址，[Maven相关介绍](https://www.cnblogs.com/johnsonwei/p/6132117.html)
+
+* [创客贴](https://www.chuangkit.com/?utm_source=zbqd&utm_campaign=index)
+
+	免费作图
+
+* [Chinaz](http://pr.chinaz.com/)
+
+	查询网站的PR（PageRank），[上一级](http://tool.chinaz.com/) 还有其他查询网站相关信息的工具。
+
+* [来必力](https://www.livere.com/)
+
+	在搭博客的时候会用到，是一个能够嵌入到网站的评论工具
+
+* [爱给](https://www.aigei.com/music/game/)
+
+	免费获取配乐，在做游戏软件的时候用过一次这个网站。
+
+* [paperask](https://www.paperask.com/)
+
+	论文免费查重
+
+* [paperyy](https://www.paperyy.com/)
+
+	论文免费查重
+
+* [优品PPT](https://www.ypppt.com/)
+
+	下载PPT模板的，一般般，胜在免费和在线。自己有很多模板资源，现在很少用它。
+
+* [百度脑图](https://naotu.baidu.com/)
+
+	在线绘制思维导图的工具，胜在在线，网页版就可以用。
+
+
+## 在线课程网站
+
+* [51CTO](http://e-learning.51cto.com/introduce)
+
+
+## 游戏
+
+* [PPgame](http://www.ppgames.top/)
+
+## other
+
+* [MindMaster](https://mm.edrawsoft.cn/)
+
+	在线思维导图软件，支持网页版，但是免费的容量不大。
+
+* [零度空间](http://www.00ling.cn/cart.php)
+
+	可以购买虚拟空间和域名，比较便宜。
+
+* [Browse State-of-the-Art](https://paperswithcode.com/sota)
+
+	已发表论文的代码复现，这个可以常常关注一下
+
+* [斯坦福教育网站](https://webprotege.stanford.edu/)
+
+	不太记得这个网站作什么的了，看的是里面可以用提供的资源搭建项目，但是又感觉有点奇怪，有时间再研究一下。
+
+## Comments
+
+{% include comments.html %}
+
+
+<!-- 
 ## 工具
 
 * [box-shadow generator](http://www.cssmatic.com/box-shadow)
@@ -220,7 +433,7 @@ Syntax Theme: Atom Dark or One Dark
 
     折叠左侧目录章节。
 
-    <!-- ![](http://ww4.sinaimg.cn/large/7011d6cfjw1f08kmplbj1j20gn05l0tk.jpg) -->
+    ![](http://ww4.sinaimg.cn/large/7011d6cfjw1f08kmplbj1j20gn05l0tk.jpg) 
 
 ## Chrome 插件
 - [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
@@ -289,7 +502,4 @@ Syntax Theme: Atom Dark or One Dark
 - [https://gyrosco.pe/](https://gyrosco.pe/)
 
     首页的卡片翻动效果非常赞。
-
-## Comments
-
-{% include comments.html %}
+ -->
