@@ -5,6 +5,8 @@ date: 2019-05-05
 description: 本篇主要基于一个心脏病的数据集，根据所具有的多个特征运用逻辑回归进行预测病人是否有心脏病。
 categories: Case
 tags: ML Python Case
+author: NMt
+mathjax: true
 ---
 * content
 {:toc}
