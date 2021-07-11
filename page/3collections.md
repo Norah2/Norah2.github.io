@@ -9,11 +9,17 @@ type: page
 * content
 {:toc}
 
-## 数据集 & 项目
+## 神奇网站
 
 * [Github](https://github.com/)
 
 	非常经典的社区，基本上资料都可以找得到，但是因为服务器不在境内，所以访问速度很限制。
+
+* [Browse State-of-the-Art](https://paperswithcode.com/sota)
+
+	已发表论文的代码复现，这个可以常常关注一下
+
+## 数据集 & 项目
 
 * [Gitee](https://gitee.com/)
 
@@ -104,6 +110,10 @@ type: page
 
 ## 可视化
 
+* [matplotlib](https://matplotlib.org/)
+
+	其他绘图第三方库的基础
+
 * [pyecharts](https://pyecharts.org/)
 
 	代码手册，包含多个可视化样例，更加适合嵌入网页做交互式可视化图表，对统计分析不友好，其中函数都没有增加计算功能，不能直接传入数据集，而是要把结果计算好才能传入函数。
@@ -111,6 +121,10 @@ type: page
 * [echarts](https://echarts.apache.org/examples/zh/index.html)
 
 	pyecharts的爸爸，直接在线改数据生成图表，但是不是python语言。
+
+* [seaborn](https://seaborn.pydata.org/)
+
+	绘制统计图很强
 
 * [material design palette](https://www.materialpalette.com/)
 
@@ -200,6 +214,10 @@ type: page
 
 ## other
 
+* [路过图床](https://imgtu.com/)
+
+	存储图片的仓库，注意注册的时候一定要把科学上网工具关掉，否则没有办法注册账户。
+
 * [MindMaster](https://mm.edrawsoft.cn/)
 
 	在线思维导图软件，支持网页版，但是免费的容量不大。
@@ -207,10 +225,6 @@ type: page
 * [零度空间](http://www.00ling.cn/cart.php)
 
 	可以购买虚拟空间和域名，比较便宜。
-
-* [Browse State-of-the-Art](https://paperswithcode.com/sota)
-
-	已发表论文的代码复现，这个可以常常关注一下
 
 * [斯坦福教育网站](https://webprotege.stanford.edu/)
 
