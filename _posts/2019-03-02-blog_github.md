@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GitHub Pages + Jekyll 搭建博客
+title: "GitHub Pages + Jekyll 搭建博客"
 date: 2019-03-02
 description: GitHub Pages / Jekyll
 categories: blog
