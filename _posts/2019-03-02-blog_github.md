@@ -14,8 +14,11 @@ mathjax: true
 
 使用Jekyll在Github Pages上搭建属于自己的博客。  
 
-
+<div style='display: none'>
 @@@@
+</div>
+
+
 
 
 
@@ -47,7 +50,7 @@ mathjax: true
 
 我的账号是在半年前注册的，注册之后就安装了Git，那时还没有博客，因此现在只能略讲。
 
-> [Git安装教程 + SSH 配置](https://norah2.github.io/2019/03/Git_install/)
+> [Git安装教程 + SSH 配置](https://norah2.github.io/2019/03/02/Git_install/)
 
 ## 学习搭建项目
 
@@ -55,16 +58,15 @@ mathjax: true
 
 点击  your profile  就可以进入到自己的个人资料页面，接下来点击 Repositories 就能看到你所拥有的全部项目。
 
-[![RzjctA.png](https://z3.ax1x.com/2021/07/10/RzjctA.png)](https://imgtu.com/i/RzjctA)
+![][pt_01]  
 
 点击右上角的 new 就可以新建一个仓库。
 
-[![RzjsTH.png](https://z3.ax1x.com/2021/07/10/RzjsTH.png)](https://imgtu.com/i/RzjsTH)
-
+![][pt_02]  
 
 按照图片设置好之后，点击 `create repository` 即可新建一个项目。
 
-[![Rzjr0e.png](https://z3.ax1x.com/2021/07/10/Rzjr0e.png)](https://imgtu.com/i/Rzjr0e)
+![][pt_03]  
 
 
 ## 安装 `Jekyll`
@@ -82,7 +84,7 @@ ruby setup.rb
 ```
 然后只需要等着，出现下面这个就安装成功了。如果没有成功的话可以看报错提示或者百度自行安装。
 
-[![Rzj7kj.png](https://z3.ax1x.com/2021/07/10/Rzj7kj.png)](https://imgtu.com/i/Rzj7kj)
+![][pt_15]  
 
 接下来用 gem 安装 Jekyll
 
@@ -95,13 +97,13 @@ jekyll -v
 ```
 出现这个就表示已经安装成功（版本号可能会有不同）
 
-[![Rzj0OO.png](https://z3.ax1x.com/2021/07/10/Rzj0OO.png)](https://imgtu.com/i/Rzj0OO)
+![][pt_05]  
 
 ### 这里插入一段安装Jekyll的报错
 	
 安装完 Jekyll ，输入命令 `jekyll server` 想尝试一下，结果发现报错。
 
-[![Rzjf6f.png](https://z3.ax1x.com/2021/07/10/Rzjf6f.png)](https://imgtu.com/i/Rzjf6f)
+![][pt_09]  
 
 百度之后说是要安装 bundle ，那就来试试吧！ 
 
@@ -109,11 +111,11 @@ jekyll -v
 bundle install
 ```
 
-[![RzjW1P.png](https://z3.ax1x.com/2021/07/10/RzjW1P.png)](https://imgtu.com/i/RzjW1P)
+![][pt_10]  
 
 安装完成之后，继续运行 `jekyll server`，然而仍旧报错……
 
-[![Rzj5nS.png](https://z3.ax1x.com/2021/07/10/Rzj5nS.png)](https://imgtu.com/i/Rzj5nS)
+![][pt_11]  
 
 最终 get 到了正确的方法：
 
@@ -125,15 +127,15 @@ bundle install
 
 然后就开始修改 Gemfile.lock 中的内容，并且重新再来一次 `bundle install`:
 
-[![RzjhX8.png](https://z3.ax1x.com/2021/07/10/RzjhX8.png)](https://imgtu.com/i/RzjhX8)
+![][pt_12]  
 
 终于安装好了，然而……
 
-[![RzjI0g.png](https://z3.ax1x.com/2021/07/10/RzjI0g.png)](https://imgtu.com/i/RzjI0g)
+![][pt_13]  
 
 根据提示，仍旧不死心的继续尝试 ：
 
-[![Rzjo7Q.png](https://z3.ax1x.com/2021/07/10/Rzjo7Q.png)](https://imgtu.com/i/Rzjo7Q)
+![][pt_14]  
 
 终于搞定！！！
 
@@ -144,17 +146,19 @@ bundle install
 
 当你已经把 Jekyll 安装好之后，在 [Jekyll Theme 官网](http://jekyllthemes.org/) 上面选择自己喜欢的主题风格。
 
-[![Rzj6kd.png](https://z3.ax1x.com/2021/07/10/Rzj6kd.png)](https://imgtu.com/i/Rzj6kd)
+![][pt_06]  
 
-选择好一个主题后点进去，点击 `HomePage` ，这时进入了存储这个博客模板项目的 GitHub 仓库里。
+选择好一个主题后点进去，点击 `HomePage` ，这时进入了存储这个博客模板项目的 GitHub 仓库里。  
 
-[![RzjRpt.png](https://z3.ax1x.com/2021/07/10/RzjRpt.png)](https://imgtu.com/i/RzjRpt)
+![][pt_07]  
 
 接下来点击右上角的 `Fork` 按钮，这时这个项目就会被复制到自己的仓库中。从自己的账号中进入到这个仓库中，点击 `setting` ，下面的 Github Pages 里面有一个域名。可以通过这个域名看到自己博客现在的模样。
 
-[![RzjgfI.png](https://z3.ax1x.com/2021/07/10/RzjgfI.png)](https://imgtu.com/i/RzjgfI)
+![][pt_04]  
 
-这时博客已经初步搭建好了，接下来就是如何按照自己的意愿更改其中的细节使之完完全全成为自己的博客，并且要知道如何管理以及往上面发文章。
+这时博客已经初步搭建好了，接下来就是如何按照自己的意愿更改其中的细节使之完完全全成为自己的博客，并且要知道如何管理以及往上面发文章。  
+
+![][pt_08]  
 
 ## 将项目复制到本地
 
@@ -202,7 +206,7 @@ git pull origin master
 
 按照我之前写的步骤安装完成之后，输入`jekyll server`会报错，如下图所示：  
 
-[![Rzj7kj.png](https://z3.ax1x.com/2021/07/10/Rzj7kj.png)](https://imgtu.com/i/Rzj7kj)
+![][pt_16]  
 
 各种百度无果，直到我发现了这位大牛的博客：[https://blog.csdn.net/xftony/article/details/80536507](https://blog.csdn.net/xftony/article/details/80536507)  
 
@@ -220,11 +224,11 @@ gem install jemoji
 
 安装之后：
 
-[![RzjHts.png](https://z3.ax1x.com/2021/07/10/RzjHts.png)](https://imgtu.com/i/RzjHts)
+![][pt_17]  
 
 安装之后就不会报错了!!!
 
-[![Rzjbhn.png](https://z3.ax1x.com/2021/07/10/Rzjbhn.png)](https://imgtu.com/i/Rzjbhn)
+![][pt_18]  
 
 看到那位大牛老哥里面还有其他的东西，我就先“抄”下来做下记录，以防以后需要：
 
@@ -238,13 +242,28 @@ gem update --system
 
 等以后有机会再重装的时候再过来补充吧~
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/03/blog_github/) 
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/03/02/blog_github/) 
 
-<!--
-04
-[![RzjDmD.png](https://z3.ax1x.com/2021/07/10/RzjDmD.png)](https://imgtu.com/i/RzjDmD)
+<!--本文用到的链接-->
 
-18
-[![RzjLpq.png](https://z3.ax1x.com/2021/07/10/RzjLpq.png)](https://imgtu.com/i/RzjLpq)
--->
+[pt_01]: https://gitee.com/nora2nan/blog-image/raw/master/01_blog/01.png
+[pt_02]: https://gitee.com/nora2nan/blog-image/raw/master/01_blog/02.png
+[pt_03]: https://gitee.com/nora2nan/blog-image/raw/master/01_blog/03.png
+[pt_04]: https://gitee.com/nora2nan/blog-image/raw/master/01_blog/04.png
+[pt_05]: https://gitee.com/nora2nan/blog-image/raw/master/01_blog/05.png
+[pt_06]: https://gitee.com/nora2nan/blog-image/raw/master/01_blog/06.png
+[pt_07]: https://gitee.com/nora2nan/blog-image/raw/master/01_blog/07.png
+[pt_08]: https://gitee.com/nora2nan/blog-image/raw/master/01_blog/08.png
+[pt_09]: https://gitee.com/nora2nan/blog-image/raw/master/01_blog/09.png
+[pt_10]: https://gitee.com/nora2nan/blog-image/raw/master/01_blog/10.png
+[pt_11]: https://gitee.com/nora2nan/blog-image/raw/master/01_blog/11.png
+[pt_12]: https://gitee.com/nora2nan/blog-image/raw/master/01_blog/12.png
+[pt_13]: https://gitee.com/nora2nan/blog-image/raw/master/01_blog/13.png
+[pt_14]: https://gitee.com/nora2nan/blog-image/raw/master/01_blog/14.png
+[pt_15]: https://gitee.com/nora2nan/blog-image/raw/master/01_blog/15.png
+[pt_16]: https://gitee.com/nora2nan/blog-image/raw/master/01_blog/16.png
+[pt_17]: https://gitee.com/nora2nan/blog-image/raw/master/01_blog/17.png
+[pt_18]: https://gitee.com/nora2nan/blog-image/raw/master/01_blog/18.png
+
+
 {% endraw %}
