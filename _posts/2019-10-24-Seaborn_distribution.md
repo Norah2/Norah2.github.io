@@ -8,13 +8,19 @@ tags: Visualize Seaborn Python
 author: NMt
 mathjax: true
 ---
+
 * content
 {:toc}
+
 有关分类变量的绘制  
 
 <div style='display: none'>
 @@@@
 </div>
+
+
+
+
 
 {% raw %}
 处理数据时，我们一定会希望在做分析或者处理前能够了解数据的分布情况。  
@@ -279,37 +285,27 @@ http://seaborn.pydata.org/tutorial/distributions.html
 
 
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/10/Seaborn_distribution/)   
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/10/24/Seaborn_distribution/)   
 
 <!--以下是本文用到的链接-->  
 
-[pt_01]: /images/posts/41_Seaborn_distri/01.png
-[pt_02]: /images/posts/41_Seaborn_distri/02.png
-[pt_03]: /images/posts/41_Seaborn_distri/03.png
-[pt_04]: /images/posts/41_Seaborn_distri/04.png
-[pt_05]: /images/posts/41_Seaborn_distri/05.png
-[pt_06]: /images/posts/41_Seaborn_distri/06.png
-[pt_07]: /images/posts/41_Seaborn_distri/07.png
-[pt_08]: /images/posts/41_Seaborn_distri/08.png
-[pt_09]: /images/posts/41_Seaborn_distri/09.png
-[pt_10]: /images/posts/41_Seaborn_distri/10.png
-[pt_11]: /images/posts/41_Seaborn_distri/11.png
-[pt_12]: /images/posts/41_Seaborn_distri/12.png
-[pt_13]: /images/posts/41_Seaborn_distri/13.png
-[pt_14]: /images/posts/41_Seaborn_distri/14.png
-[pt_15]: /images/posts/41_Seaborn_distri/15.png
-[pt_16]: /images/posts/41_Seaborn_distri/16.png
-[pt_17]: /images/posts/41_Seaborn_distri/17.png
-[pt_18]: /images/posts/41_Seaborn_distri/18.png
-[pt_19]: /images/posts/41_Seaborn_distri/19.png
-[pt_20]: /images/posts/41_Seaborn_distri/20.png
-[pt_21]: /images/posts/41_Seaborn_distri/21.png
-[pt_22]: /images/posts/41_Seaborn_distri/22.png
-[pt_23]: /images/posts/41_Seaborn_distri/23.png
-[pt_24]: /images/posts/41_Seaborn_distri/24.png
-[pt_25]: /images/posts/41_Seaborn_distri/25.png
-[pt_26]: /images/posts/41_Seaborn_distri/26.png
-[pt_27]: /images/posts/41_Seaborn_distri/27.png
-[pt_28]: /images/posts/41_Seaborn_distri/28.png
+[pt_01]: https://gitee.com/nora2nan/blog-image/raw/master/42_Seaborn_distri/01.png
+[pt_02]: https://gitee.com/nora2nan/blog-image/raw/master/42_Seaborn_distri/02.png
+[pt_03]: https://gitee.com/nora2nan/blog-image/raw/master/42_Seaborn_distri/03.png
+[pt_04]: https://gitee.com/nora2nan/blog-image/raw/master/42_Seaborn_distri/04.png
+[pt_05]: https://gitee.com/nora2nan/blog-image/raw/master/42_Seaborn_distri/05.png
+[pt_06]: https://gitee.com/nora2nan/blog-image/raw/master/42_Seaborn_distri/06.png
+[pt_07]: https://gitee.com/nora2nan/blog-image/raw/master/42_Seaborn_distri/07.png
+[pt_08]: https://gitee.com/nora2nan/blog-image/raw/master/42_Seaborn_distri/08.png
+[pt_09]: https://gitee.com/nora2nan/blog-image/raw/master/42_Seaborn_distri/09.png
+[pt_10]: https://gitee.com/nora2nan/blog-image/raw/master/42_Seaborn_distri/10.png
+[pt_11]: https://gitee.com/nora2nan/blog-image/raw/master/42_Seaborn_distri/11.png
+[pt_12]: https://gitee.com/nora2nan/blog-image/raw/master/42_Seaborn_distri/12.png
+[pt_13]: https://gitee.com/nora2nan/blog-image/raw/master/42_Seaborn_distri/13.png
+[pt_14]: https://gitee.com/nora2nan/blog-image/raw/master/42_Seaborn_distri/14.png
+[pt_15]: https://gitee.com/nora2nan/blog-image/raw/master/42_Seaborn_distri/15.png
+[pt_16]: https://gitee.com/nora2nan/blog-image/raw/master/42_Seaborn_distri/16.png
+[pt_17]: https://gitee.com/nora2nan/blog-image/raw/master/42_Seaborn_distri/17.png
+[pt_18]: https://gitee.com/nora2nan/blog-image/raw/master/42_Seaborn_distri/18.png
 
 {% endraw %}
