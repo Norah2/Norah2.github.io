@@ -20,6 +20,10 @@ mathjax: true
 @@@@
 </div>
 
+
+
+
+
 {% raw %}
 ### Abstract  
 
@@ -236,19 +240,18 @@ http://www.hankcs.com/nlp/cs224n-sentence-embeddings.html
 
 这是中秋之前打算写完的博客，结果因为中间有比赛耽搁了，比完赛还没休息就赶紧来补博客了。  
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/09/paper_sentence_embedding/)   
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/09/15/paper_sentence_embedding/)   
 
 <!--以下是本文用到的链接-->  
 
-[pt_01]: /images/posts/34_paper_sentence_embedding/01.png
-[pt_02]: /images/posts/34_paper_sentence_embedding/02.jpg
-[pt_03]: /images/posts/34_paper_sentence_embedding/03.jpg
-[pt_04]: /images/posts/34_paper_sentence_embedding/04.png
-[pt_05]: /images/posts/34_paper_sentence_embedding/05.png
-[pt_06]: /images/posts/34_paper_sentence_embedding/06.png
-[pt_07]: /images/posts/34_paper_sentence_embedding/07.png
+[pt_01]: https://gitee.com/nora2nan/blog-image/raw/master/34_paper_sentence_embedding/01.png
+[pt_02]: https://gitee.com/nora2nan/blog-image/raw/master/34_paper_sentence_embedding/02.jpg
+[pt_03]: https://gitee.com/nora2nan/blog-image/raw/master/34_paper_sentence_embedding/03.jpg
+[pt_04]: https://gitee.com/nora2nan/blog-image/raw/master/34_paper_sentence_embedding/04.png
+[pt_05]: https://gitee.com/nora2nan/blog-image/raw/master/34_paper_sentence_embedding/05.png
+[pt_06]: https://gitee.com/nora2nan/blog-image/raw/master/34_paper_sentence_embedding/06.png
+[pt_07]: https://gitee.com/nora2nan/blog-image/raw/master/34_paper_sentence_embedding/07.png
 [li_01]: https://openreview.net/pdf?id=SyK00v5xx
 [li_02]: https://github.com/PrincetonML/SIF
-
 
 {% endraw %}
