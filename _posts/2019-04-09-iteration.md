@@ -8,16 +8,19 @@ tags: Python Iter
 author: NMt
 mathjax: true
 --- 
+
 * content
 {:toc}
+
 在不少编程语言中都会存在一种名叫迭代器的数据类型，这种数据类型理解起来可能会会花一点时间，但是在进行遍历的时候在效率上会比常见的列表之类的数据类型效率更高。  
 
 本篇主要讲解有关于迭代器的函数和用例。  
 
-
 <div style='display: none'>
 @@@@
 </div>
+
+
 
 
 {% raw %}
@@ -230,6 +233,6 @@ TypeError: <lambda>() missing 1 required positional argument: 'y'
 ```
 
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/04/iteration/) 
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/04/09/iteration/) 
 
 {% endraw %}
