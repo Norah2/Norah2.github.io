@@ -13,8 +13,9 @@ mathjax: true
 {:toc}
 VMware的安装教程
 
+<div style='display: none'>
 @@@@
-
+</div>
 
 {% raw %}
 VMware是收费软件，本着学习精神，我还是找到了一个破解版，在此默默对不起正版。既然是破解版就不乱传了，虽然已经满网传的沸沸扬扬。  

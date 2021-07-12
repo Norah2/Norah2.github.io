@@ -14,7 +14,9 @@ mathjax: true
 利用matplotlib库画基础的柱状图、线型图、堆积柱状图、饼图、直方图、填充区域图表、堆积图、带彩色标记的散点图等等，还记录了有关图表的线型、属性、格式化字符的参数值以及说明；同时还讲解了怎么移动轴线、添加误差线、添加图例、刻度、刻度标签、网格等等部件。  
 
 
+<div style='display: none'>
 @@@@
+</div>
 
 
 
@@ -673,7 +675,7 @@ plt.show()
 
 转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/09/matplotlib_plot/)   
 
-<!--以下是本文用到的链接-->  
+<!--以下是本文用到的链接  
 
 [pt_01]: /images/posts/36_plot_charts/01.png
 [pt_02]: /images/posts/36_plot_charts/02.png
@@ -695,5 +697,5 @@ plt.show()
 [pt_18]: /images/posts/36_plot_charts/18.png
 [pt_19]: /images/posts/36_plot_charts/19.png
 
-
+-->
 {% endraw %}

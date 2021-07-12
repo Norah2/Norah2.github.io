@@ -13,9 +13,9 @@ mathjax: true
 {:toc}
 有关分类变量的绘制 
 
-
+<div style='display: none'>
 @@@@
-
+</div>
 
 {% raw %}
 当探索medium-dimensional数据时，一种有用的方法是在数据集的不同子集上绘制同一绘图的多个实例。这种技术有时被称为“lattice”or“trellies”图，它与“small multiples”的概念有关。它允许查看器快速提取有关复杂数据的大量信息。maltiplotlib为制作多轴图形提供了很好的支持。seaborn在此基础上构建，将绘图结构直接连接到数据集结构。  

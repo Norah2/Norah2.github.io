@@ -14,8 +14,9 @@ mathjax: true
 
 记笔记软件介绍——GitNote
 
-
+<div style='display: none'>
 @@@@
+</div>
 
 {% raw %}
 前面的都是文字铺垫，可以直接跳过~~  

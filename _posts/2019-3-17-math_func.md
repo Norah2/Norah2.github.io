@@ -12,9 +12,9 @@ mathjax: true
 {:toc}
 这一篇主要讲解math模块里面的所有函数。  
 
-
+<div style='display: none'>
 @@@@
-
+</div>
 
 {% raw %}
 ### math模块中的固定常数  

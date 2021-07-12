@@ -14,7 +14,9 @@ mathjax: true
 有很多软件的适用于运行都需要基于Java的环境，这两天安装了SQL Server数据库就需要基于Java的环境，下面是安装教程：  
 
 
+<div style='display: none'>
 @@@@
+</div>
 
 {% raw %}
 1. 打开装着jdk安装包的文件夹，双击：  

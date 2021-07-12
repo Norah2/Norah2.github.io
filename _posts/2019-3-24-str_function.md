@@ -13,8 +13,9 @@ mathjax: true
 {:toc}
 本篇博客是收集关于str方法，并针对每个方法配有示例。函数的分类主要参考老师的课件。  
 
+<div style='display: none'>
 @@@@
-
+</div>
 
 {% raw %}
 ### 字符串的类型判断  

@@ -16,9 +16,9 @@ mathjax: true
 
 Seaborn主要是一个在探索数据、分析数据中帮我们在视觉上进行强调而不是对数据进行分析。因此要获得与回归模型拟合相关的定量度量应该使用statsmodels包。  
 
-
+<div style='display: none'>
 @@@@
-
+</div>
 
 {% raw %}
 首先导入需要用到的包：  

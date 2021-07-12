@@ -13,9 +13,9 @@ mathjax: true
 {:toc}
 在IDEA中配置python环境  
 
-
-
+<div style='display: none'>
 @@@@
+</div>
 
 {% raw %}
 最近在帮老师写一个大数据案例分析，想着项目还是用IDEA比较好，所以重新打开IDEA；大家知道的我电脑之前抽过一次风，上次安装软件的时候仅仅只是安装了一下，并没有完全配置好，所以现在只能重新开始配置python环境了。  

@@ -14,7 +14,9 @@ mathjax: true
 本篇主要基于一个心脏病的数据集，根据所具有的多个特征运用逻辑回归进行预测病人是否有心脏病。  
 
 
+<div style='display: none'>
 @@@@
+</div>
 
 
 {% raw %}

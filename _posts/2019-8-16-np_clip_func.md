@@ -14,9 +14,9 @@ mathjax: true
 
 详述一下clip函数的用法，最近在看代码的时候遇到的这个函数。  
 
-
+<div style='display: none'>
 @@@@
-
+</div>
 
 {% raw %}
 函数格式：  

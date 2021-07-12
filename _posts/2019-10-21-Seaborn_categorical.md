@@ -13,9 +13,9 @@ mathjax: true
 {:toc}
 有关分类变量的绘制
 
-
+<div style='display: none'>
 @@@@
-
+</div>
 
 {% raw %}
 当你想展示的变量中其中有一个分类变量，则可以用本篇里面的函数进行绘制图形。  
