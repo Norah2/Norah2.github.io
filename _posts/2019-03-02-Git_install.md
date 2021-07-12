@@ -66,7 +66,7 @@ Git + SSH配置流程
 ![][pt_08] 
 
 
-*大多数其他Cygwin/MSYS终端一样，MinTTY也是基于pseudo终端("pty")设备的。但是MinTTY并不能完全替代windows的命令提示符。windows上自带简单的文本输出的原生态的命令提示符通常可以很好的工作，但交互性更好的诸如MinTTY这样的应用程序却可能出现故障——虽然通常都有应对方案。这就是为什么MinTTY不能完全替代windows自带的命令提示符。
+大多数其他Cygwin/MSYS终端一样，MinTTY也是基于pseudo终端("pty")设备的。但是MinTTY并不能完全替代windows的命令提示符。windows上自带简单的文本输出的原生态的命令提示符通常可以很好的工作，但交互性更好的诸如MinTTY这样的应用程序却可能出现故障——虽然通常都有应对方案。这就是为什么MinTTY不能完全替代windows自带的命令提示符。
 
 8、其他的配置--默认
 
