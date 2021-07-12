@@ -11,11 +11,16 @@ mathjax: true
 
 * content
 {:toc}
+
 在IDEA中配置python环境  
 
 <div style='display: none'>
 @@@@
 </div>
+
+
+
+
 
 {% raw %}
 最近在帮老师写一个大数据案例分析，想着项目还是用IDEA比较好，所以重新打开IDEA；大家知道的我电脑之前抽过一次风，上次安装软件的时候仅仅只是安装了一下，并没有完全配置好，所以现在只能重新开始配置python环境了。  
@@ -70,20 +75,20 @@ mathjax: true
 
 信心满满的我，忙活了一晚上就配置好了一个环境。后面需要抓紧时间了！！！
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/08/SymPy_Introduce/)   
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/08/28/SymPy_Introduce/)   
 
 <!--以下是本文用到的链接-->  
 
-[pt_01]: /images/posts/idea_python/01.png
-[pt_02]: /images/posts/idea_python/02.png
-[pt_03]: /images/posts/idea_python/03.png
-[pt_04]: /images/posts/idea_python/04.png
-[pt_05]: /images/posts/idea_python/05.png
-[pt_06]: /images/posts/idea_python/06.png
-[pt_07]: /images/posts/idea_python/07.png
-[pt_08]: /images/posts/idea_python/08.png
-[pt_09]: /images/posts/idea_python/09.png
-[pt_10]: /images/posts/idea_python/10.png
-[pt_11]: /images/posts/idea_python/11.png
+[pt_01]: https://gitee.com/nora2nan/blog-image/raw/master/32_idea_python/01.png
+[pt_02]: https://gitee.com/nora2nan/blog-image/raw/master/32_idea_python/02.png
+[pt_03]: https://gitee.com/nora2nan/blog-image/raw/master/32_idea_python/03.png
+[pt_04]: https://gitee.com/nora2nan/blog-image/raw/master/32_idea_python/04.png
+[pt_05]: https://gitee.com/nora2nan/blog-image/raw/master/32_idea_python/05.png
+[pt_06]: https://gitee.com/nora2nan/blog-image/raw/master/32_idea_python/06.png
+[pt_07]: https://gitee.com/nora2nan/blog-image/raw/master/32_idea_python/07.png
+[pt_08]: https://gitee.com/nora2nan/blog-image/raw/master/32_idea_python/08.png
+[pt_09]: https://gitee.com/nora2nan/blog-image/raw/master/32_idea_python/09.png
+[pt_10]: https://gitee.com/nora2nan/blog-image/raw/master/32_idea_python/10.png
+[pt_11]: https://gitee.com/nora2nan/blog-image/raw/master/32_idea_python/11.png
 
 {% endraw %}
