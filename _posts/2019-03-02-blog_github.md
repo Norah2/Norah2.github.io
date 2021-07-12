@@ -5,7 +5,7 @@ date: 2019-03-02
 description: GitHub Pages / Jekyll
 categories: Blog
 tags: Blog Jekyll GithubPages
-author: HyG
+author: NMt
 mathjax: true
 ---
 
