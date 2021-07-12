@@ -17,6 +17,9 @@ mathjax: true
 @@@@
 </div>
 
+
+
+
 {% raw %}
 ### 字符串的类型判断  
 
@@ -485,6 +488,6 @@ ValueError: the first two maketrans arguments must have equal length
 https://docs.python.org/3/library/stdtypes.html  
 https://www.cnblogs.com/single-boy/p/7309461.html  
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/03/str_function/)   
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/03/24/str_function/)   
 
 {% endraw %}
