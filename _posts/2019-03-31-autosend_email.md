@@ -16,6 +16,10 @@ mathjax: true
 @@@@
 </div>
 
+
+
+
+
 {% raw %}
 最近又被分到爬虫任务了，平常写写爬虫随便玩下挺好，只针对那种一会就能爬下来的任务，最讨厌的就是那种需要爬上万页的。因为这种爬虫一般耗时很长，隔一段时间IP很有可能被封掉，因此要断点继续，由于网页的页数很多，因此上面的数据格式肯定不会是完全相同，从而在处理数据和存储数据的时候有很大几率会报错。因此很有可能出现的情况就是，满意的看着自己的代码，本以为会万无一失，自信满满的点下运行键，乖乖坐在电脑前盯着程序发现没有出bug，于是安心的去潇洒去了。等估摸着时间差不多了，过去一看，发现程序可能在自己刚转身的时候就报错了。  
 
@@ -29,24 +33,16 @@ mathjax: true
 2. 授权发送邮件的QQ邮箱。  
         
     首先登陆自己要发送的；邮箱账号，点设置。  
-	[![W9EcZ9.png](https://z3.ax1x.com/2021/07/11/W9EcZ9.png)](https://imgtu.com/i/W9EcZ9)
-	
-   [//]: # (![][pt_01])  
+	![][pt_01]  
      
     接下来，点击账户。  
-    [![W9EyqJ.png](https://z3.ax1x.com/2021/07/11/W9EyqJ.png)](https://imgtu.com/i/W9EyqJ)
-	
-   [//]: # (![][pt_02])
+    ![][pt_02]
      
     划到这个界面之后把 `IMAP/SMAP服务`打开，这时候它会让你发送邮件确认。  
-	[![W9Esr4.png](https://z3.ax1x.com/2021/07/11/W9Esr4.png)](https://imgtu.com/i/W9Esr4)  
-	
-   [//]: # (![][pt_03])  
+    ![][pt_03]  
      
    确认之后它会给一个授权码，下面会用到，复制下来即可。  
-   [![W9ErMF.png](https://z3.ax1x.com/2021/07/11/W9ErMF.png)](https://imgtu.com/i/W9ErMF)
-   
-   [//]: # (![][pt_04])
+    ![][pt_04]
    
 3. 前面工作做好了，就把下面的代码复制到自己的py文件中，记得改掉发件人和收件人的邮箱、授权码、发送内容等信息。  
 	```python
@@ -119,17 +115,12 @@ mathjax: true
 
 https://jingyan.baidu.com/article/39810a23bc8ad8b636fda6a0.html
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/03/autosend_email/)   
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/03/31/autosend_email/)   
 
-<!--以下是本文用到的链接  
+<!--以下是本文用到的链接-->
+[pt_01]: https://gitee.com/nora2nan/blog-image/raw/master/11_autosend_email/01.png
+[pt_02]: https://gitee.com/nora2nan/blog-image/raw/master/11_autosend_email/02.png
+[pt_03]: https://gitee.com/nora2nan/blog-image/raw/master/11_autosend_email/03.png
+[pt_04]: https://gitee.com/nora2nan/blog-image/raw/master/11_autosend_email/04.png
 
-[pt_01]: /images/posts/autosend_email/01.png
-[pt_02]: /images/posts/autosend_email/02.png
-[pt_03]: /images/posts/autosend_email/03.png
-[pt_04]: /images/posts/autosend_email/04.png
-[![W9EcZ9.png](https://z3.ax1x.com/2021/07/11/W9EcZ9.png)](https://imgtu.com/i/W9EcZ9)
-[![W9EyqJ.png](https://z3.ax1x.com/2021/07/11/W9EyqJ.png)](https://imgtu.com/i/W9EyqJ)
-[![W9Esr4.png](https://z3.ax1x.com/2021/07/11/W9Esr4.png)](https://imgtu.com/i/W9Esr4)
-[![W9ErMF.png](https://z3.ax1x.com/2021/07/11/W9ErMF.png)](https://imgtu.com/i/W9ErMF)
--->
 {% endraw %}
