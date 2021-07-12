@@ -5,13 +5,15 @@ date: 2019-03-24
 description: 本篇文章总结了关于字符串类型数据结构的全部方法   
 categories: Python
 tags: Python Fun Str
+author: NMt
+mathjax: true
 ---
 
 * content
 {:toc}
 本篇博客是收集关于str方法，并针对每个方法配有示例。函数的分类主要参考老师的课件。  
 
-
+@@@@
 
 
 {% raw %}

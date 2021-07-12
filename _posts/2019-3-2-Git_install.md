@@ -2,8 +2,10 @@
 layout: post
 title: Git 安装教程
 date: 2019-03-02
-categories: blog
-tags: Git Install Software SSH Configure
+categories: Install
+tags: Git Install Blog
+author: NMt
+mathjax: true
 ---
 
 * content
@@ -12,7 +14,7 @@ tags: Git Install Software SSH Configure
 Git + SSH配置流程  
 
 
-
+@@@@
 
 
 {% raw %}

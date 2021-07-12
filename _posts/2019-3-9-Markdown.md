@@ -3,8 +3,10 @@ layout: post
 title: Markdown 语法简介
 date: 2019-03-09
 description: Markdown知识点汇总
-categories: blog
-tags: markdown syntax
+categories: Blog
+tags: Markdown Blog
+author: NMt
+mathjax: true
 ---
 * content
 {:toc}
@@ -12,7 +14,7 @@ tags: markdown syntax
 这篇主要汇总了Markdown的常用语法，学会这个就可以直接用纯文本去写图文并茂的博客了。  
 
 
-
+@@@@
 
 
 {% raw %}

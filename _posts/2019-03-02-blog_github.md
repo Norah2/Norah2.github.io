@@ -3,8 +3,8 @@ layout: post
 title: "GitHub Pages + Jekyll 搭建博客"
 date: 2019-03-02
 description: GitHub Pages / Jekyll
-categories: blog
-tags: blog jekyll GithubPages
+categories: Blog
+tags: Blog Jekyll GithubPages
 author: HyG
 mathjax: true
 ---
@@ -15,7 +15,7 @@ mathjax: true
 使用Jekyll在Github Pages上搭建属于自己的博客。  
 
 
-
+@@@@
 
 
 

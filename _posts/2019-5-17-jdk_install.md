@@ -4,7 +4,9 @@ title: jdk 安装教程
 date: 2019-05-17
 description: jdk 安装教程
 categories: Install
-tags: Install Java SQLServer jdk
+tags: Install Java SQLServer Jdk
+author: NMt
+mathjax: true
 ---
 * content
 {:toc}
@@ -12,7 +14,7 @@ tags: Install Java SQLServer jdk
 有很多软件的适用于运行都需要基于Java的环境，这两天安装了SQL Server数据库就需要基于Java的环境，下面是安装教程：  
 
 
-
+@@@@
 
 {% raw %}
 1. 打开装着jdk安装包的文件夹，双击：  

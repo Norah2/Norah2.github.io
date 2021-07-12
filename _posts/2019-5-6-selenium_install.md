@@ -3,8 +3,10 @@ layout: post
 title: Windows下安装selenium以及chrome driver的安装步骤  
 date: 2019-05-06
 description: 本文主要写关于selenium的前期安装工作
-categories: Python
+categories: Install
 tags: Install Crawler ChromeDriver 
+author: NMt
+mathjax: true
 ---
 
 * content
@@ -12,7 +14,7 @@ tags: Install Crawler ChromeDriver
 
 今天介绍一下关于selenium的安装方法：  
 
-
+@@@@
 
 
 {% raw %}

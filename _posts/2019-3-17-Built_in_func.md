@@ -5,6 +5,8 @@ date: 2019-03-17
 description: 一份关于python内置函数的详细文档说明
 categories: Python
 tags: Python Func  
+author: NMt
+mathjax: true
 ---
 
 * content
@@ -13,7 +15,7 @@ tags: Python Func
 今天来总结一下python的内置函数，一共有69个内置函数（问我怎么知道具体数字的？数的呗！！），基于python 3.x的编译环境。我预感到写这篇博客又是一场腥风血雨，不过我准备好了，来吧！！！  
 
 
-
+@@@@
 
 
 {% raw %}

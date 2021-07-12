@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 各种格式文件的读取操作汇总  
+date:2019-09-21
 description: 其中包括csv文件、excel文件、定宽文件、制表符文件、数据库文件以及利用pandas读取文件。  
 categories: Python
 tags: Python ReadFile
@@ -15,7 +16,7 @@ mathjax: true
 
 其中包括csv文件、excel文件、定宽文件、制表符文件、数据库文件以及利用pandas读取文件。  
 
-
+@@@@
 
 
 

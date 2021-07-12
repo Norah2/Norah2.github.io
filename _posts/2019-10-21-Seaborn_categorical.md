@@ -3,7 +3,6 @@ layout: post
 title: Seaborn——Plotting with categorical data  
 date: 2019-10-21
 description: 有关分类变量的绘制  
-tag: Visualization
 categories: Visualize
 tags: Visualize Seaborn Python
 author: NMt
@@ -15,7 +14,7 @@ mathjax: true
 有关分类变量的绘制
 
 
-
+@@@@
 
 
 {% raw %}

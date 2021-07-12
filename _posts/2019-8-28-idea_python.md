@@ -3,8 +3,8 @@ layout: post
 title: 在IDEA中配置python环境  
 date: 2019-08-28
 description: 在IDEA中配置python环境  
-categories: Install
-tags: Python Install IDEA Setting
+categories: Windows
+tags: Python IDEA Windows
 author: NMt
 mathjax: true
 ---
@@ -15,7 +15,7 @@ mathjax: true
 
 
 
-
+@@@@
 
 {% raw %}
 最近在帮老师写一个大数据案例分析，想着项目还是用IDEA比较好，所以重新打开IDEA；大家知道的我电脑之前抽过一次风，上次安装软件的时候仅仅只是安装了一下，并没有完全配置好，所以现在只能重新开始配置python环境了。  

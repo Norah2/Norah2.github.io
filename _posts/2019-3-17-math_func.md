@@ -5,13 +5,15 @@ date: 2019-03-17
 description: 讲解math模块中的所有函数。
 categories: Python
 tags: Python Math Func 
+author: NMt
+mathjax: true
 ---
 * content
 {:toc}
 这一篇主要讲解math模块里面的所有函数。  
 
 
-
+@@@@
 
 
 {% raw %}

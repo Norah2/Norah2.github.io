@@ -14,7 +14,7 @@ mathjax: true
 IDEA安装教程以及简单设置内核。  
 
 
-
+@@@@
 
 {% raw %}
 在安装IDEA之前需安装jdk，安装教程可以参照[jdk安装教程][link_01]  

@@ -4,7 +4,9 @@ title: 迭代器
 date: 2019-04-09
 description: 相对于其他序列数据类型来说迭代器更加高效。
 categories: Python
-tags: Python Func Iter
+tags: Python Iter
+author: NMt
+mathjax: true
 --- 
 * content
 {:toc}
@@ -13,7 +15,7 @@ tags: Python Func Iter
 本篇主要讲解有关于迭代器的函数和用例。  
 
 
-
+@@@@
 
 
 {% raw %}

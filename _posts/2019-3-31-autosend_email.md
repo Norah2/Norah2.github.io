@@ -4,13 +4,15 @@ title: 自动发送邮件功能——python
 date: 2019-03-31
 description: 有些代码运行耗时很长，不确定什么时候运行完毕，但是又不能坐在电脑旁一直等它结束。要是代码运行完毕或者报错的时候给自己发送一封邮件多好，这样就可以及时返回进行修改代码，或是进行后续工作。
 categories: Python
-tags: Python Automatic Email
+tags: Python 
+author: NMt
+mathjax: true
 ---
 * content
 {:toc}
 有些代码运行耗时很长，不确定什么时候运行完毕，但是又不能坐在电脑旁一直等它结束。要是代码运行完毕或者报错的时候给自己发送一封邮件多好，这样就可以及时返回进行修改代码，或是进行后续工作。  
 
-
+@@@@
 
 
 

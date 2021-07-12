@@ -4,7 +4,9 @@ title: 查看电脑的密钥
 date: 2019-03-18
 description: 升级时做个备份，以防万一。
 categories: Windows  
-tags: Windows Key Activate   
+tags: Windows ActivateKey   
+author: NMt
+mathjax: true
 ---
 
 * content
@@ -12,7 +14,7 @@ tags: Windows Key Activate
 一般买的电脑中Windows10都是家庭版，这种版本的限制比较多，为了满足我的需求，就把家庭版升级了，这个主要介绍升级之后更改密钥的步骤，除了升级之外，其他的到期激活等等也适用。  
 
 
-
+@@@@
 
 
 {% raw %}

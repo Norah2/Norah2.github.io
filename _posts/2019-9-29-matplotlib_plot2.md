@@ -1,6 +1,7 @@
 ---
 layout: post
 title: matplotlib中有关图表的细节设置  
+date: 2019-09-29
 description: 本文中包括如何设置坐标轴标签透明度以及大小、添加线条阴影、添加数据表格、划分子区、定制网格grid、等高线图、填充图表底层区域、极线图。  
 categories: Visualize
 tags: Python Visualize Matplotlib
@@ -12,7 +13,7 @@ mathjax: true
 {:toc}
 本文中包括如何设置坐标轴标签透明度以及大小、添加线条阴影、添加数据表格、划分子区、定制网格grid、等高线图、填充图表底层区域、极线图。  
 
-
+@@@@
 
 
 
