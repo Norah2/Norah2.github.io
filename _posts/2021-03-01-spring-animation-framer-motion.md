@@ -16,486 +16,225 @@ mathjax: true
 
 
 {% raw %}
-## 动画效果的真实体验
+前面的都是文字铺垫，可以直接跳过~~  
 
-### `timing-function` 的不足
+相信大家电脑上总会有一些用于记笔记的软件，我之前因为一些机缘巧合用过 Wiz 为知笔记，没有仔细用过，用过几次，这个软件界面做的确实不错，单从代码块和团队合作分享来看，就觉得很棒。  
 
-说到拟真的的动画体验，本质是动画中的过渡动画带来的体感。通常情况开发一个前端动画，会使用 CSS transition 来实现，动画中的变量值（如 div 的位移或角度等）与时间的关系是三次贝塞尔曲线（cubic-bezier），即 `timing-function` 中常用的 `ease`, `ease-in`, `ease-out`, `ease-in-out` 等，或给三次贝塞尔曲线传入 4 个参数来控制曲线的形态。如下
+由于没有长时间用过，所以也不盲目吹捧贬低，唯一一点让我没有选择用它的原因就是它需要付费，但是新用户会有一段时间的免费试用。为什么说付费就让我不用了呢，是因为笔记软件这个东西只是偶尔用用，而且里面的功能也没有好到让我心甘情愿去付钱，所以果断舍弃了。  
 
-<a href="https://cubic-bezier.com/">
-  <img width="70%" src="https://gw.alicdn.com/imgextra/i4/O1CN01rCo6Er1jz5h57YNjg_!!6000000004618-2-tps-978-352.png"/>
-</a>
+接下来，我经人推荐一直在用 evernote 印象笔记这款软件，界面比较简洁，虽然有些功能没有或者不够完善会导致一些不方便，但是都能克服。这款笔记不是很好的地方就是每月同步的笔记有流量限制，似乎是每月60M，一开始想想，谁写字能写60M；直到网课充斥在我的生活里，我才发现60M是多么的捉襟见肘，所以一冲动差点买了会员。印象笔记虽然功能比较齐全，但是功能都有点弱，比如代码块，只能支持无格式粘贴，没有任何的颜色区别，粘贴之后的代码简直都要不认识了；比如自带的截屏功能，截屏之后会自动创建一个笔记放截屏图片，而不会在粘贴板里支持随处粘贴；比如搜索，完全不支持正则表达式，也有可能是我不会用，但是我是真的认真找了，没有发现任何支持正则的痕迹；比如快捷键，这个是很反人类的，常用的快捷键在这个软件里面全部都不一样了，用起来很不方便……呃，就先吐槽到这，现实的一点是，虽然有很多小瑕疵，但是我仍旧用了两年，这也十分硬核说明这个软件很不错。  
 
-**但是，真实世界中，没有任何一个物体的运动是符合三次贝塞尔曲线的**。因为物体的运动受到自身的质量、阻力、弹力等因素有关，这也是为什么会诞生物理引擎。接下来一步一步讲讲弹簧阻尼系统中的运动。
+直到昨天印象笔记的一个调查问卷，让我了解到还有很多其他的软件。在好奇的驱使下，我随手去百度了一下，这下好了，我知道了 GitNote 的存在，在看过B站的一个没有人类感情的视频介绍之后，GitNote成功俘获了我的心。铺垫这么长，后面就开始介绍了：
 
-### 弹簧-阻尼系统中的运动
+   
+   
+   
+## 一、GitNote软件的安装以及配置  
 
-在很多 native 动画中，特别是 iOS 的系统动画中，可以感受到“拉动越小，回弹越小；拉动越大，回弹越大”的感受，这便是弹簧动画的效果
+### 下载  
 
-![](https://gw.alicdn.com/imgextra/i4/O1CN01r7hDZ81Uulic8TukO_!!6000000002578-2-tps-216-139.png)
+百度网盘下载地址：[https://pan.baidu.com/s/18X3Hl0ZXcVk7FItRosHuaA](https://pan.baidu.com/s/18X3Hl0ZXcVk7FItRosHuaA)  
+官网地址：[https://gitnoteapp.com/](https://gitnoteapp.com/)  
 
-首先来看弹簧的受力情况，根据胡克定律得到如下公式：
+Windows安装和普通软件一样，双击即可，Linux下的需要更改文件的属性，增加可执行权限即可。  
 
-$$
-F_s=-kX
-$$
+### GitHub仓库连接  
 
-$k$ 为弹簧劲度系数
+这个软件会将你的笔记和远端的 GitHub 仓库连接在一起，也就是说，不管你的更新了什么笔记，都会在 GitHub 上存储一份，只要 GitHub 不倒，不管你在哪里，只要能够上网以及记得 GitHub 账号就可以查看你的笔记。  
 
-考虑到阻力，$c$ 为摩擦系数，$v$ 为速度
+因此在使用 GitHub 之前需要创建一个 GitHub 的账号，并且在账号下创建一个仓库存储笔记。如果之前没有使用过 GitHub 或者 了解过 GitHub 的人在一开始会很不习惯。我由于专业的关系，对 GitHub 比较熟，因此上手起来完全无压力，不过在我第一次创建 GitHub 账号之后立马放弃它了将近一年时间，服务器响应慢以及全英文完全阻止了我的脚步，直至后面才慢慢习惯。  
 
-$$
-F_d=-cv
-$$
+1.首先你需要有一个你自己的 GitHub 账号。  
 
-弹簧上的合力则为：
+2.在 GitHub 账号上创建一个私人仓库：  
 
-$$
-F=F_s+F_d=-kX-cv
-$$
+在右上角的 “+” 的下拉框中点击 new repository ：  
+![][pt_01]  
+  
+在新出先的页面中填写 repository 的名字，属性设置为 private 私人（即不公开），勾上初始化，如果没有勾上则创建之后在repository中新建一个文件就可以手动完成 initial：  
+![][pt_02]  
+  
+完成之后的样子是这样的：  
+![][pt_03]  
 
-再根据牛顿第二定律
+3.打开软件 GitNote，点击 clone a repository：  
+![][pt_04]  
 
-$$
-F=ma
-$$
+如果是第一次登录的话，没有最左边的 recently opened project；而右上角可以关联你的其他社交账号，包括QQ、微信、微博，还有打赏、反馈、官网三个按钮；右下角可以选择语言，暂时只支持英文、中文简体、中文繁体三种；Add a locally existing git repository 是加载一个本地的 git repository；我们是连接 GitHub 上的远端 repository，因此选择 clone a repository。  
 
-联立两个方程
+4.填写配置参数：  
+![][pt_05]  
+  
+完成之后是这样的：  
+![][pt_06]  
 
-$$
-\begin{cases}
-  F=-kX-cv \\
-  F=ma
-\end{cases}
-$$
+这样子基本上算是已经配置完成，页面各部件的用途：  
+![][pt_07]  
+   
+   
+   
+## 二、插件介绍  
 
-为了简单起见，我们假设质量值为 1（即 $m=1$）,这样就可以得到：
+插件安装：  
+![][pt_08]  
+直接点击右上角绿色的 install 就可以进行安装了。  
 
-$$
-a=-kX-cv
-$$
+### kityminder  
 
-$X$代表物体从其平衡位置开始移动。这就意味着，如果我们想从 $x=x$ 到 $x=1$，那么我们要每次移动 $x-1$  才能到达那个指定位置（微分的思想）。
+这里的 kityminder 插件能够连接 KMind 思维脑图，这和[百度脑图](https://naotu.baidu.com/)官网是一样的，画出的思维导图可以进行导出，也可以保存在 GitNote 笔记中：  
+![][pt_09]  
 
-$$
-X=x-1
-$$
+### grapheditor  
 
-得到运动方程
+这里的 grapheditor 插件是用于画流程图的，同样可以进行导出等一些操作：  
+![][pt_10]  
 
-$$
-a=-k(x-1)-cv
-$$
+### pomodoro  
 
-接下来使用微分公式来计算出物体运动的位置和时间的关系
+这里的 pomodoro 插件则是一个番茄计时器：  
+![][pt_11]  
 
-$$
-x=f(t)
-$$
+### revealjs  
 
-根据位置计算速度
+这个插件则是可以支持使用 Markdown 做演示文档，其中可以用三个短横线做分页符：`---`，使用`Note:`开头的文字是注释，在演示时不会显示出来。  
 
-$$
-v=\frac{dx}{dt}=f'(t)
-$$
+例如在md文件输入以下内容：  
 
-计算加速度
+![][pt_12]  
 
-$$
-a=\frac{dv}{dt}=f''(t)
-$$
+revealjs的效果如下所示：  
+![][pt_13]  
+![][pt_14]  
+![][pt_15]  
+![][pt_16]  
 
-结合之前得出的运动方程
+左下角的按钮则是导出为html文件，导出到指定文件夹，点开名为 index.html 的本地网页，就可以看到PPT：  
 
-$$
-\begin{cases}
-  a=-k(x-1)-cv \\ \\
-  a=\dfrac{dv}{dt}=f''(t) \\ \\
-  v=\dfrac{dx}{dt}=f'(t) \\ \\
-  x=f(t)
-\end{cases}
-$$
+![][pt_17]  
 
-得出
+右下角仍旧支持左右切换页面。  
 
-$$
-f''(t)=-k(f(t)-1)-cf'(t)
-$$
+### 图床  
 
-接下来就是解这个微分方程了。
+GitNote中有四种图床，github、smms、imgur、local，将图片进行拖拽就可以实现上传：  
 
-考虑一下边界条件，我们让块移动之前，块的位置假设在 $x=0$，也就是说块的初始位置是 $x=0$，初始时间是 $t=0$
+![][pt_18]  
 
-$$
-f(0)=0
-$$
+smms是不需要设置的，安装smms的插件就可以使用，图片会上传到smms服务器；  
 
-$$
-f'(0)=0
-$$
+imgur是一个免费的图片空间，没有空间和流量的限制，默认会上传到gitnote的账号下面，不会进行任何的处理，同样可以申请自己的imgur账号，如果有自己的账号，则在插件的设置中填写自己的client id并保存即可：  
 
-再假设劲度系数 $k=180$，摩擦系数为 $c=12$
+![][pt_19]  
 
-$$
-\begin{cases}
-  f(0) = 0 \\
-  f'(0) = 0 \\
-  f''(t) = -180(f(t) - 1) - 12f'(t)
-\end{cases}
-$$
+当图片仅仅想放在本地，即可上传到本地图床local，拖拽之后就可以存储在local文件下，按照 local/年/月/日 格式进行存储；  
 
-解方程的具体过程这里就不细讲了，而且有一个强大的搜索引擎 [WolframAlpha](https://www.wolframalpha.com/input/?i=f%280%29+%3D+0%3B+f%27%280%29+%3D+0%3B+f%27%27%28t%29+%3D+-180%28f%28t%29+-+1%29+-+12f%27%28t%29) 可以用来解各种微积分方程，将方程用以下的方式输入
+github 则是将图片上传到 github 上，需要进行一些配置，创建一个图片存储仓库：  
 
-```
-f(0) = 0; f'(0) = 0; f''(t) = -180(f(t) - 1) - 12f'(t)
-```
+![][pt_20]  
 
-如下图
+接着点击头像，在下拉框中点击 Settings：  
 
-![](https://gw.alicdn.com/imgextra/i3/O1CN01vGtrEZ20XvfoF2xqJ_!!6000000006860-2-tps-1008-1080.png)
+![][pt_21]  
 
-可以看到上述截图，方程经过傅里叶变换得到
+点击最下面的 Developer Settings：  
 
-$$
-f(t)=-\frac{1}{2}e^{-6t}(-2e^{6t}+sin(12t)+2cos(12t))
-$$
+![][pt_22]  
 
-这个函数图像在二维坐标系中绘制如下：
+点击左侧的 Personal access tokens，然后点击右边的 generate new token：  
 
-![](https://gw.alicdn.com/imgextra/i1/O1CN01Z8zVrh1a5pMTrVSWe_!!6000000003279-2-tps-1209-605.png)
+![][pt_25]  
 
-是不是非常像 timing-fuction 中的三次贝塞尔曲线？是的，三次贝塞尔曲线是在模拟这个计算结果，而我们刚刚的计算真实的还原了质量为 1、劲度系数为 180、摩擦系数为 12 时的弹簧运动轨迹。
+接着会出现一个确认GitHub密码的页面：  
 
-### 简谐运动
+![][pt_23]  
 
-说到上述的这个运动轨迹，其本质就是一个简谐运动。这里再复习一下什么是简谐运动：
+确认密码之后，就这可隐形设置token，其中需要为token遍写一个名字，还需要设置权限：  
 
-> 简谐运动，或称简谐振动、谐振、SHM（Simple Harmonic Motion），即是最基本也是最简单的一种机械振动。当某物体进行简谐运动时，物体所受的力跟位移成正比，并且力总是指向平衡位置。
+![][pt_24]  
 
-如下图，简谐运动的阻尼大小分为 4 种情况
+设置完成之后点击 Generate token 即可生成。
 
-- 零阻尼 (zero damping)：图中虚线为零阻尼的情况，物体将永不停歇的做周期运动
-- 欠阻尼 (light damping)：图中蓝线为欠阻尼情况，物体在平衡位置震荡，但振幅减小，最终回到平衡位置
-- 临界阻尼 (critical damping)：图中红线为临界阻尼情况，物体以最快速度回到平衡位置。现实生活中，许多大楼内房间或卫生间的门上在装备自动关门的扭转弹簧的同时，都相应地装有阻尼铰链，使得门的阻尼接近临界阻尼，这样人们关门或门被风吹动时就不会造成太大的声响，同时又能以最快速度关闭。另外汽车的避震弹簧也是使用了临界阻尼的原理
-- 过阻尼 (over damping)：图中绿线为过阻尼情况，物体以非常缓和的方式回到平衡位置
+将生成的一串token码，填入GitNote中github插件的设置中：  
 
-![](https://gw.alicdn.com/imgextra/i1/O1CN01K5B0EF1xUm65Kz4YF_!!6000000006447-2-tps-422-170.png)
+![][pt_26]  
 
-<table>
-<tr>
-  <td>
-    <video src="https://g.alicdn.com/ltao-fe/assets/damping.mp4" autoplay controls preload loop muted width="300px"></video>
-  </td>
-  <td>
-    <a href="https://gaohaoyang.github.io/framer-motion-practice/#/Spring">点击或扫码体验</a> <br />
-    <img src="https://gw.alicdn.com/imgextra/i2/O1CN011yInSb1UIIRunzpdL_!!6000000002494-2-tps-200-200.png"/>
-  </td>
-</tr>
-</table>
+这样就已经配置完成，你上传到github图床上的图片都会出现在你刚刚设置的images仓库中。  
 
-可以看出，前文解出来的方程即一种欠阻尼的简谐运动。这些都是真实世界中的弹性运动，显然 timing-function 中的三次贝塞尔曲线无法模拟，需要一个能够模拟弹簧阻尼系统的动画库。
-
-## 基于 React 的弹性动画库
-
-目前业内有3种基于 react 的弹性动画库，我们来分析对比一下：
-
-- [react-motion](https://github.com/chenglou/react-motion)
-  - spring 动画的提出者，不支持 hooks api，3年内未更新
-- [react-spring](https://www.react-spring.io/)
-  - 灵感来源于 react-motion，支持 hooks，功能强大
-- [framer-motion](https://www.framer.com/motion/)
-  - 支持 hooks，功能强大，同时增加了很多声明式属性，api 简洁友好
-
-再来对比一下3个库的 npm 下载情况，基本是差不多的
-
-name | download values
---- | ---
-react-motion | <img src="https://gw.alicdn.com/imgextra/i1/O1CN01jwQeCd21tHkxwg9h1_!!6000000007042-2-tps-528-110.png" width="300px"/>
-react-spring | <img src="https://gw.alicdn.com/imgextra/i1/O1CN01EZY4kL1zfswDwcpgZ_!!6000000006742-2-tps-510-114.png" width="300px"/>
-framer-motion | <img src="https://gw.alicdn.com/imgextra/i4/O1CN01RsV09s1abQgessyq0_!!6000000003348-2-tps-526-114.png" width="300px"/>
-
-其中 framer-motion 可以说是异军突起，发展非常迅猛
-
-![](https://gw.alicdn.com/imgextra/i1/O1CN01SWjSmq1yf8fnymlCS_!!6000000006605-2-tps-364-175.png)
-
-![](https://gw.alicdn.com/imgextra/i3/O1CN017jtfSs1mRbaCrPZGb_!!6000000004951-2-tps-397-199.png)
-
-2020年10月的周下载量几乎是2019年同期的10倍，这大部分得益于其 api 的友好性。接下来将一起探索一下 framer-motion 的使用方式。
-
-## framer-motion
-
-什么是 framer-motion？先看下官网[https://www.framer.com/motion/](https://www.framer.com/motion/)的一段话
-
-> A production-ready motion library for React. Utilize the power behind Framer, the best prototyping tool for teams. Proudly open source.
-
-framer motion 是一个生产级的 React 动画库，为他们自家原型工具产品 Framer 提供了支持，并自豪的进行了开源。事实上，framer motion 作为动画库，提供了一些极其简洁的 api 帮助我们创建复杂的动效，这些 api 帮助然我们抽象出动画背后的复杂性，让创建动画变得简单。
-
-官网强调了几个特性，这也是其极简 api 的一些特性
-
-- 声明式api
-- 组件间共享布局动画
-- 手势支持
-
-接下来看一些我开发的 demo 吧，上述的弹簧阻尼特性就是使用了 framer-motion 进行开发
-
-### 弹簧阻尼 demo
-
-```jsx
-import React from 'react'
-import { motion } from 'framer-motion'
-
-import './index.css'
-
-function index() {
-  return (
-    <>
-      <div className="wrap">
-        <div className="title">零阻尼</div>
-        <motion.div
-          className="ball"
-          animate={{
-            x: 150,
-            transition: {
-              type: 'spring',
-              damping: 0,
-            },
-          }}
-        />
-      </div>
-      <div className="wrap">
-        <div className="title">欠阻尼</div>
-        <motion.div
-          className="ball"
-          animate={{
-            x: 150,
-            transition: {
-              type: 'spring',
-              damping: 2,
-            },
-          }}
-        />
-      </div>
-      <div className="wrap">
-        <div className="title">过阻尼</div>
-        <motion.div
-          className="ball"
-          animate={{
-            x: 150,
-            transition: {
-              type: 'spring',
-              damping: 100,
-            },
-          }}
-        />
-      </div>
-      <div className="wrap">
-        <div className="title">临界阻尼</div>
-        <motion.div
-          className="ball"
-          animate={{
-            x: 150,
-            transition: {
-              type: 'spring',
-              damping: 17,
-            },
-          }}
-        />
-      </div>
-
-      <br />
-      <br />
-      <br />
-      <button
-        type="button"
-        onClick={() => {
-          window.location.reload()
-        }}
-      >
-        reload this page
-      </button>
-    </>
-  )
-}
-
-export default index
-```
-
-demo 页面链接 [https://gaohaoyang.github.io/framer-motion-practice/#/Spring](https://gaohaoyang.github.io/framer-motion-practice/#/Spring)
-
-可以看到代码确实非常简洁。本质上代码分为两部分：
-- motion 为前缀的 HTML 或 SVG 标签结合在一起创建的基础组件
-- 通过 prop 与组件对接的 api
-
-代码中修改位移、阻尼的地方如下，代码中只设置了 div 需要运动的位移 x，和阻尼值（质量和劲度系数使用默认值），就完成了动画的触发。这是与传统的 transition 设置 duration 等值的动画理念完全不同。
-
-```jsx
-animate={{
-  x: 150,
-  transition: {
-    type: 'spring', // 弹簧动画
-    damping: 0, // 阻尼值
-  },
-}}
-```
-
-再看下页面渲染时的标签上的属性变化
-
-<video src="https://g.alicdn.com/ltao-fe/assets/damping_render.mp4" autoplay controls preload loop muted width="100%"></video>
-
-可以看到每一帧 `translateX` 的值在发生变化，同时 framer-motion 出于性能的考虑，又增加了 `translateZ(0px)` 这个属性。
-
-### fadeInOut demo
-
-接下来再看一个元素展示和隐藏时的动画 demo。正常情况下，在元素消失时，我们要监听 `transitionend` 事件，然后再移除 dom 节点，但 framer-motion 也帮我们封装好了，只需要 `AnimatePresence` 这个标签即可，代码如下：
-
-```jsx
-import React, { useState } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
-
-function index() {
-  const [toggleShow, setToggleShow] = useState(true)
-  return (
-    <>
-      <br />
-      <br />
-      <button
-        onClick={() => {
-          setToggleShow((pre) => !pre)
-        }}
-        type="button"
-      >
-        toggleShow
-      </button>
-      <br />
-      <br />
-
-      <AnimatePresence>
-        {toggleShow && (
-          <motion.div
-            style={{
-              backgroundColor: '#ddd',
-              width: '50vw',
-              height: '80vw',
-            }}
-            key="modal"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1, x: 100 }}
-            exit={{ opacity: 0, x: 0 }}
-          >
-            fadeInOut animation
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </>
-  )
-}
-
-export default index
-```
-
-<table>
-<tr>
-  <td>
-    <video src="https://g.alicdn.com/ltao-fe/assets/fadeInOut.mp4" autoplay controls preload loop muted width="300px"></video>
-  </td>
-  <td>
-    <a href="https://gaohaoyang.github.io/framer-motion-practice/#/FadeInOut">点击或扫码体验</a> <br />
-    <img src="https://gw.alicdn.com/imgextra/i1/O1CN01zm3ZKY1x4D7uLkixa_!!6000000006389-2-tps-200-200.png"/>
-  </td>
-</tr>
-</table>
-
-代码中，我们可以看到使用 useState 设置了 div 展示或隐藏的状态。在需要有移除操作的动效中，使用 `AnimatePresence` 标签包裹，设置 exit 属性就好了
-
-```js
-exit={{ opacity: 0, x: 0 }}
-```
-
-再看下页面渲染时的标签的变化
-
-<video src="https://g.alicdn.com/ltao-fe/assets/fadeInOut_render.mp4" autoplay controls preload loop muted width="100%"></video>
-
-点击 toggle 按钮时，先执行动画再进行了 dom 移除操作。
-
-### drag demo
-
-```jsx
-import React from 'react'
-import { motion } from 'framer-motion'
-import './index.css'
-
-function index() {
-  return (
-    <div className="container">
-      <div
-        className="box"
-        style={{
-          width: '300px',
-          height: '500px',
-        }}
-      >
-        <motion.div
-          style={{ width: '44px', height: '44px' }}
-          className="ball"
-          drag
-          dragConstraints={{
-            top: -228,
-            bottom: 228,
-            left: -128,
-            right: 128,
-          }}
-          dragElastic={0.2}
-        />
-      </div>
-    </div>
-  )
-}
-
-export default index
-```
-
-效果如下：
-
-<table>
-<tr>
-  <td>
-    <video src="https://g.alicdn.com/ltao-fe/assets/drag.mp4" autoplay controls preload loop muted width="300px"></video>
-  </td>
-  <td>
-    <a href="https://gaohaoyang.github.io/framer-motion-practice/#/DragBall">点击或扫码体验</a> <br />
-    <img src="https://gw.alicdn.com/imgextra/i3/O1CN01WRs9RF1MjIsVUyAcm_!!6000000001470-2-tps-200-200.png"/>
-  </td>
-</tr>
-</table>
-
-可以看到代码非常简单，给 div 设置 drag 属性、dragElastic 弹性、drag 边界条件，即可得到这样的效果，并且在 drag 过程中松手时，div 会随着惯性继续移动。
-
-同样在浏览器中渲染时，出于性能优化的考虑，framer-motion 使用了 translate3d() 来开启 GPU 加速。
-
-```
-transform: translate3d(128px, 228px, 0px);
-```
-
-其他更多 demo 请访问 [https://gaohaoyang.github.io/framer-motion-practice/](https://gaohaoyang.github.io/framer-motion-practice/)
-
-或扫码：
-
-![](https://gw.alicdn.com/imgextra/i2/O1CN01i01FKn1XJcRQhnuKc_!!6000000002903-2-tps-200-200.png)
-
-demo 的 git 地址：[https://github.com/Gaohaoyang/framer-motion-practice](https://github.com/Gaohaoyang/framer-motion-practice)
-
-### framer-motion 主要 api
-
-framer-motion 不止拥有 spring 动画，同样也具有 tween 补间动画，keyframes 动画，同时还提供了动画编排、丰富的手势、各种 hooks api，详情可以参考官网文档 [https://www.framer.com/api/motion/](https://www.framer.com/api/motion/)
-
-![](https://gw.alicdn.com/imgextra/i4/O1CN01zqTgCa1nV6DfcZSCu_!!6000000005094-2-tps-1572-996.png)
-
-## 总结
-
-不同复杂度的动画可以使用不同的动画库。对于拟真的大面积布局/dom/svg react/rax动画可以考虑使用 framer-motion。framer-motion 具有极其简洁的 api，并支持了 spring 弹性动画，手势拖拽，hooks api 等。
-
-这些是物理和数学的魅力，感谢伟大的科学先驱们：
-
-![](https://gw.alicdn.com/imgextra/i3/O1CN01iN0CRO1I7y83KjN6g_!!6000000000847-2-tps-1758-634.png)
+   
+   
+   
+## 三、其他功能  
+
+### 发布  
+
+我们还可以将我们的笔记发布在网络上供其他人访问，我们直接点击发布按钮，弹出的框点击确认：  
+
+![][pt_27]  
+
+这样就发布完成，我们可以在账号中进行查看或者删除操作：  
+
+![][pt_28]  
+
+接着我们就可以在浏览器上通过连接进行访问查看了：  
+
+![][pt_29]  
+
+这篇笔记进行发布之后会上传到 GitNote 服务器上，生成一个链接进行访问，但 GitNote 只保留24小时，24小时候服务器自动删除，同时任何时间都可以手动删除。  
+
+### 收藏  
+
+首先从[谷歌插件商店](https://chrome.google.com/webstore/detail/gitnote-%E6%94%B6%E8%97%8F/penfjgfngaanjogjdpdnibpeijnpbglc)中进行插件安装：  
+
+![][pt_30]  
+
+在 chrome 中点击插件，选择需要保存的内容，点击提交即可将网页中的内容保存成笔记：  
+
+![][pt_31]  
+
+------
+写在最后：  
+
+请允许我盲目吹捧以下这个软件，真的自从认识这个软件之后各种无脑吹，甚至于写了这个巨详细的教程，官方出的教程视频我0.75的速度看了三遍，一步一步跟下来的，记录出了我认为比较重要的东西，当然自然是原视频最为详细。这么好用的软件，为什么这么少人用！！没天理！！希望我用过之后不要让我打脸！！
+
+
+参考文献：  
+
+blibli上的简介链接地址：https://www.bilibili.com/video/av43903167/  
+
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2020/4/gitnote_intro/)   
+
+<!--以下是本文用到的链接-->  
+
+[pt_01]: /images/posts/47_gitnote_intro/01.png  
+[pt_02]: /images/posts/47_gitnote_intro/02.png  
+[pt_03]: /images/posts/47_gitnote_intro/03.png  
+[pt_04]: /images/posts/47_gitnote_intro/04.png  
+[pt_05]: /images/posts/47_gitnote_intro/05.png  
+[pt_06]: /images/posts/47_gitnote_intro/06.png  
+[pt_07]: /images/posts/47_gitnote_intro/07.png  
+[pt_08]: /images/posts/47_gitnote_intro/08.png  
+[pt_09]: /images/posts/47_gitnote_intro/09.png  
+[pt_10]: /images/posts/47_gitnote_intro/10.png  
+[pt_11]: /images/posts/47_gitnote_intro/11.png  
+[pt_12]: /images/posts/47_gitnote_intro/12.png  
+[pt_13]: /images/posts/47_gitnote_intro/13.png  
+[pt_14]: /images/posts/47_gitnote_intro/14.png  
+[pt_15]: /images/posts/47_gitnote_intro/15.png  
+[pt_16]: /images/posts/47_gitnote_intro/16.png  
+[pt_17]: /images/posts/47_gitnote_intro/17.png  
+[pt_18]: /images/posts/47_gitnote_intro/18.png  
+[pt_19]: /images/posts/47_gitnote_intro/19.png  
+[pt_20]: /images/posts/47_gitnote_intro/20.png  
+[pt_21]: /images/posts/47_gitnote_intro/21.png  
+[pt_22]: /images/posts/47_gitnote_intro/22.png  
+[pt_23]: /images/posts/47_gitnote_intro/23.png  
+[pt_24]: /images/posts/47_gitnote_intro/24.png  
+[pt_25]: /images/posts/47_gitnote_intro/25.png  
+[pt_26]: /images/posts/47_gitnote_intro/26.png  
+[pt_27]: /images/posts/47_gitnote_intro/27.png  
+[pt_28]: /images/posts/47_gitnote_intro/28.png  
+[pt_29]: /images/posts/47_gitnote_intro/29.png  
+[pt_30]: /images/posts/47_gitnote_intro/30.png  
+[pt_31]: /images/posts/47_gitnote_intro/31.png  
 
 {% endraw %}
