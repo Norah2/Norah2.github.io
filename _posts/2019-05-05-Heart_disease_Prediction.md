@@ -8,15 +8,17 @@ tags: ML Python Case
 author: NMt
 mathjax: true
 ---
+
 * content
 {:toc}
 
 本篇主要基于一个心脏病的数据集，根据所具有的多个特征运用逻辑回归进行预测病人是否有心脏病。  
 
-
 <div style='display: none'>
 @@@@
 </div>
+
+
 
 
 {% raw %}
@@ -52,8 +54,7 @@ Step 3：数据标准化
 
 处理后的数据：  
 
-[//]: # (![][pt_01])  
-[![W9ZTUA.png](https://z3.ax1x.com/2021/07/11/W9ZTUA.png)](https://imgtu.com/i/W9ZTUA)  
+![][pt_01]
 
 #### 2.3.数据集的特征分析：  
 
@@ -74,27 +75,22 @@ Step 3：数据标准化
 
 数据特征描述图：   
 
-[//]: # (![][pt_02])  
-[![W9Zq8P.png](https://z3.ax1x.com/2021/07/11/W9Zq8P.png)](https://imgtu.com/i/W9Zq8P)  
-
+![][pt_02]
 一维核密度估计图： 
 
-[//]: # (![][pt_03])  
-[![W9ZLgf.png](https://z3.ax1x.com/2021/07/11/W9ZLgf.png)](https://imgtu.com/i/W9ZLgf)  
+![][pt_03] 
 
 此图中画出了13个特征的核密度分布图，可以直观的看出每个维度的分布情况。例如第4幅图中可以明显的看到trestbps的的核密度估计图是呈钟形的曲线，而第8幅图中看到thalac是一个左偏的图形。  
 
 特征的相关系数热力图：   
 
-[//]: # (![][pt_04])  
-[![W9Z74I.png](https://z3.ax1x.com/2021/07/11/W9Z74I.png)](https://imgtu.com/i/W9Z74I)  
+![][pt_04]  
 
 上图中显示了各个特征之间的相关系数，最高的为1.0，越接近1.0则表明相关程度越高。可以通过相关系数矩阵直观的看出哪两个变量之间的相关程度高，可以初步筛选一部分特征，从而达到更好的建模效果。本图中最高的相关系数只达到0.4。  
 
 特征随年龄变化的趋势图：   
 
-[//]: # (![][pt_05])  
-[![W9ZoEd.png](https://z3.ax1x.com/2021/07/11/W9ZoEd.png)](https://imgtu.com/i/W9ZoEd)  
+![][pt_05] 
 
 该图中可以看到threstbps有微小的上升趋势，而tahlach的绿色曲线有下降趋势，红色曲线趋势不明显但可看出chol的数据波动很大。  
 
@@ -199,25 +195,21 @@ LR较为显著的优点有：1、适合需要得到一个分类概率的场景�
 
 将在测试集上的预测结果与真是结果用图显示：  
 
-[//]: # (![][pt_06])
-[![W9ZbCt.png](https://z3.ax1x.com/2021/07/11/W9ZbCt.png)](https://imgtu.com/i/W9ZbCt)  
+![][pt_06]
 
 其中红色点表示真实值，绿色点表示预测值。预测准确的就是两点重合的点，预测不准的就是红点或者绿点。  
 
 对上述预测值进行构建混淆矩阵  
 
-[//]: # (![][pt_09])
-[![W9ZvDg.png](https://z3.ax1x.com/2021/07/11/W9ZvDg.png)](https://imgtu.com/i/W9ZvDg)  
+![][pt_09] 
 
 混淆矩阵热力图：  
 
-[//]: # (![][pt_07])
-[![W9ZOv8.png](https://z3.ax1x.com/2021/07/11/W9ZOv8.png)](https://imgtu.com/i/W9ZOv8)  
+![][pt_07] 
 
 根据混淆矩阵可得到ROC曲线：  
 
-[//]: # (![][pt_08])
-[![W9ZjKS.png](https://z3.ax1x.com/2021/07/11/W9ZjKS.png)](https://imgtu.com/i/W9ZjKS)  
+![][pt_08]  
 
 模型最终得出的ω的值如下：
 
@@ -443,27 +435,17 @@ print(re.predict_log_proba)
 ```
 
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/05/Heart_disease_Prediction/)   
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/05/05/Heart_disease_Prediction/)   
 
-<!--以下是本文用到的链接  
+<!--以下是本文用到的链接-->
+[pt_01]: https://gitee.com/nora2nan/blog-image/raw/master/15_Heart_Prediction/01.png
+[pt_02]: https://gitee.com/nora2nan/blog-image/raw/master/15_Heart_Prediction/02.png
+[pt_03]: https://gitee.com/nora2nan/blog-image/raw/master/15_Heart_Prediction/03.png
+[pt_04]: https://gitee.com/nora2nan/blog-image/raw/master/15_Heart_Prediction/04.png
+[pt_05]: https://gitee.com/nora2nan/blog-image/raw/master/15_Heart_Prediction/05.png
+[pt_06]: https://gitee.com/nora2nan/blog-image/raw/master/15_Heart_Prediction/06.png
+[pt_07]: https://gitee.com/nora2nan/blog-image/raw/master/15_Heart_Prediction/07.png
+[pt_08]: https://gitee.com/nora2nan/blog-image/raw/master/15_Heart_Prediction/08.png
+[pt_09]: https://gitee.com/nora2nan/blog-image/raw/master/15_Heart_Prediction/09.png
 
-[pt_01]: /images/posts/Heart_Prediction/01.png
-[pt_02]: /images/posts/Heart_Prediction/02.png
-[pt_03]: /images/posts/Heart_Prediction/03.png
-[pt_04]: /images/posts/Heart_Prediction/04.png
-[pt_05]: /images/posts/Heart_Prediction/05.png
-[pt_06]: /images/posts/Heart_Prediction/06.png
-[pt_07]: /images/posts/Heart_Prediction/07.png
-[pt_08]: /images/posts/Heart_Prediction/08.png
-[pt_09]: /images/posts/Heart_Prediction/09.png
-[![W9ZTUA.png](https://z3.ax1x.com/2021/07/11/W9ZTUA.png)](https://imgtu.com/i/W9ZTUA)
-[![W9Zq8P.png](https://z3.ax1x.com/2021/07/11/W9Zq8P.png)](https://imgtu.com/i/W9Zq8P)
-[![W9ZLgf.png](https://z3.ax1x.com/2021/07/11/W9ZLgf.png)](https://imgtu.com/i/W9ZLgf)
-[![W9Z74I.png](https://z3.ax1x.com/2021/07/11/W9Z74I.png)](https://imgtu.com/i/W9Z74I)
-[![W9ZoEd.png](https://z3.ax1x.com/2021/07/11/W9ZoEd.png)](https://imgtu.com/i/W9ZoEd)
-[![W9ZbCt.png](https://z3.ax1x.com/2021/07/11/W9ZbCt.png)](https://imgtu.com/i/W9ZbCt)
-[![W9ZOv8.png](https://z3.ax1x.com/2021/07/11/W9ZOv8.png)](https://imgtu.com/i/W9ZOv8)
-[![W9ZjKS.png](https://z3.ax1x.com/2021/07/11/W9ZjKS.png)](https://imgtu.com/i/W9ZjKS)
-[![W9ZvDg.png](https://z3.ax1x.com/2021/07/11/W9ZvDg.png)](https://imgtu.com/i/W9ZvDg)
--->
 {% endraw %}
