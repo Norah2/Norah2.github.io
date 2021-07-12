@@ -11,14 +11,16 @@ mathjax: true
 
 * content
 {:toc}
+
 距离上次写博客已经过去10天了，对于这件事我需要很认真的反省一下，这些天我一直在背六级英语单词以及写课程作业，对于课外的专业知识的学习耽搁了很久，以至于时隔这么久我现在坐在电脑前不知道写一些什么东西。对于今天出现的情况我很严肃的对自己说，这样的情况我不希望看到第二次。  
 
 这一篇博客就是对Seaborn库官方教程的学习及代码重现，没有太多的技术含量，只是对于现有教程的一个翻译与总结。  
 
-
 <div style='display: none'>
 @@@@
 </div>
+
+
 
 
 {% raw %}
@@ -369,32 +371,32 @@ http://seaborn.pydata.org/tutorial/relational.html
 
 <!--以下是本文用到的链接-->  
 
-[pt_01]: /images/posts/39_Seaborn_statis/01.png
-[pt_02]: /images/posts/39_Seaborn_statis/02.png
-[pt_03]: /images/posts/39_Seaborn_statis/03.png
-[pt_04]: /images/posts/39_Seaborn_statis/04.png
-[pt_05]: /images/posts/39_Seaborn_statis/05.png
-[pt_06]: /images/posts/39_Seaborn_statis/06.png
-[pt_07]: /images/posts/39_Seaborn_statis/07.png
-[pt_08]: /images/posts/39_Seaborn_statis/08.png
-[pt_09]: /images/posts/39_Seaborn_statis/09.png
-[pt_10]: /images/posts/39_Seaborn_statis/10.png
-[pt_11]: /images/posts/39_Seaborn_statis/11.png
-[pt_12]: /images/posts/39_Seaborn_statis/12.png
-[pt_13]: /images/posts/39_Seaborn_statis/13.png
-[pt_14]: /images/posts/39_Seaborn_statis/14.png
-[pt_15]: /images/posts/39_Seaborn_statis/15.png
-[pt_16]: /images/posts/39_Seaborn_statis/16.png
-[pt_17]: /images/posts/39_Seaborn_statis/17.png
-[pt_18]: /images/posts/39_Seaborn_statis/18.png
-[pt_19]: /images/posts/39_Seaborn_statis/19.png
-[pt_20]: /images/posts/39_Seaborn_statis/20.png
-[pt_21]: /images/posts/39_Seaborn_statis/21.png
-[pt_22]: /images/posts/39_Seaborn_statis/22.png
-[pt_23]: /images/posts/39_Seaborn_statis/23.png
-[pt_24]: /images/posts/39_Seaborn_statis/24.png
-[pt_25]: /images/posts/39_Seaborn_statis/25.png
-[pt_26]: /images/posts/39_Seaborn_statis/26.png
-[pt_27]: /images/posts/39_Seaborn_statis/27.png
+[pt_01]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/01.png
+[pt_02]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/02.png
+[pt_03]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/03.png
+[pt_04]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/04.png
+[pt_05]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/05.png
+[pt_06]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/06.png
+[pt_07]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/07.png
+[pt_08]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/08.png
+[pt_09]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/09.png
+[pt_10]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/10.png
+[pt_11]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/11.png
+[pt_12]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/12.png
+[pt_13]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/13.png
+[pt_14]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/14.png
+[pt_15]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/15.png
+[pt_16]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/16.png
+[pt_17]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/17.png
+[pt_18]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/18.png
+[pt_19]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/19.png
+[pt_20]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/20.png
+[pt_21]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/21.png
+[pt_22]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/22.png
+[pt_23]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/23.png
+[pt_24]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/24.png
+[pt_25]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/25.png
+[pt_26]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/26.png
+[pt_27]: https://gitee.com/nora2nan/blog-image/raw/master/40_Seaborn_statis/27.png
 
 {% endraw %}
