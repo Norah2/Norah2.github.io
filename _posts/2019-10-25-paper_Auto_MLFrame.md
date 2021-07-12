@@ -11,11 +11,16 @@ mathjax: true
 
 * content
 {:toc}
+
 本文记录了笔者阅读的一篇论文Benchmarking Automatic Machine Learning Frameworks，一篇有关于机器学习中AutoML框架的对比分析论文。  
 
 <div style='display: none'>
 @@@@
 </div>
+
+
+
+
 
 {% raw %}
 
@@ -219,23 +224,24 @@ table 1 列出了每个框架的失败次数。共删除29个运行组合（数�
 
 
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/10/paper_Auto_MLFrame/)   
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/10/25/paper_Auto_MLFrame/)   
 
 <!--以下是本文用到的链接-->  
 
-[pt_01]: /images/posts/42_paper_Auto_MLFrame/01.png
-[pt_02]: /images/posts/42_paper_Auto_MLFrame/02.png
-[pt_03]: /images/posts/42_paper_Auto_MLFrame/03.png
-[pt_04]: /images/posts/42_paper_Auto_MLFrame/04.png
-[pt_05]: /images/posts/42_paper_Auto_MLFrame/05.png
-[pt_06]: /images/posts/42_paper_Auto_MLFrame/06.png
-[pt_07]: /images/posts/42_paper_Auto_MLFrame/07.png
-[pt_08]: /images/posts/42_paper_Auto_MLFrame/08.png
-[pt_09]: /images/posts/42_paper_Auto_MLFrame/09.png
-[pt_10]: /images/posts/42_paper_Auto_MLFrame/10.png
-[pt_11]: /images/posts/42_paper_Auto_MLFrame/11.png
-[pt_12]: /images/posts/42_paper_Auto_MLFrame/12.png
-[pt_13]: /images/posts/42_paper_Auto_MLFrame/13.png
+[pt_01]: https://gitee.com/nora2nan/blog-image/raw/master/43_paper_Auto_MLFrame/01.png
+[pt_02]: https://gitee.com/nora2nan/blog-image/raw/master/43_paper_Auto_MLFrame/02.png
+[pt_03]: https://gitee.com/nora2nan/blog-image/raw/master/43_paper_Auto_MLFrame/03.png
+[pt_04]: https://gitee.com/nora2nan/blog-image/raw/master/43_paper_Auto_MLFrame/04.png
+[pt_05]: https://gitee.com/nora2nan/blog-image/raw/master/43_paper_Auto_MLFrame/05.png
+[pt_06]: https://gitee.com/nora2nan/blog-image/raw/master/43_paper_Auto_MLFrame/06.png
+[pt_07]: https://gitee.com/nora2nan/blog-image/raw/master/43_paper_Auto_MLFrame/07.png
+[pt_08]: https://gitee.com/nora2nan/blog-image/raw/master/43_paper_Auto_MLFrame/08.png
+[pt_09]: https://gitee.com/nora2nan/blog-image/raw/master/43_paper_Auto_MLFrame/09.png
+[pt_10]: https://gitee.com/nora2nan/blog-image/raw/master/43_paper_Auto_MLFrame/10.png
+[pt_11]: https://gitee.com/nora2nan/blog-image/raw/master/43_paper_Auto_MLFrame/11.png
+[pt_12]: https://gitee.com/nora2nan/blog-image/raw/master/43_paper_Auto_MLFrame/12.png
+[pt_13]: https://gitee.com/nora2nan/blog-image/raw/master/43_paper_Auto_MLFrame/13.png
+
 [li_01]: https://arxiv.org/pdf/1808.06492v1.pdf
 
 {% endraw %}
