@@ -11,11 +11,16 @@ mathjax: true
 
 * content
 {:toc}
+
 有关分类变量的绘制
 
 <div style='display: none'>
 @@@@
 </div>
+
+
+
+
 
 {% raw %}
 当你想展示的变量中其中有一个分类变量，则可以用本篇里面的函数进行绘制图形。  
@@ -37,7 +42,7 @@ Categorical estimate plots:
 * `barplot()`(with parameter "kind='bar'")  
 * `countplot()`(with parameter "kind='count'")  
 
-接下来，导入本节需要用的包，数据集部分参考我的上一篇博客： [Seaborn——Visualizing statistical relationship](https://norah2.github.io/2019/10/Seaborn_statis/)  
+接下来，导入本节需要用的包，数据集部分参考我的上一篇博客： [Seaborn——Visualizing statistical relationship](https://norah2.github.io/2019/10/18/Seaborn_statis/)  
 
 ```python
 import seaborn as sns
@@ -375,37 +380,37 @@ http://seaborn.pydata.org/tutorial/categorical.html
 
 
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/10/Seaborn_categorical/)   
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/10/21/Seaborn_categorical/)   
 
 <!--以下是本文用到的链接-->  
 
-[pt_01]: /images/posts/40_Seaborn_categ/01.png
-[pt_02]: /images/posts/40_Seaborn_categ/02.png
-[pt_03]: /images/posts/40_Seaborn_categ/03.png
-[pt_04]: /images/posts/40_Seaborn_categ/04.png
-[pt_05]: /images/posts/40_Seaborn_categ/05.png
-[pt_06]: /images/posts/40_Seaborn_categ/06.png
-[pt_07]: /images/posts/40_Seaborn_categ/07.png
-[pt_08]: /images/posts/40_Seaborn_categ/08.png
-[pt_09]: /images/posts/40_Seaborn_categ/09.png
-[pt_10]: /images/posts/40_Seaborn_categ/10.png
-[pt_11]: /images/posts/40_Seaborn_categ/11.png
-[pt_12]: /images/posts/40_Seaborn_categ/12.png
-[pt_13]: /images/posts/40_Seaborn_categ/13.png
-[pt_14]: /images/posts/40_Seaborn_categ/14.png
-[pt_15]: /images/posts/40_Seaborn_categ/15.png
-[pt_16]: /images/posts/40_Seaborn_categ/16.png
-[pt_17]: /images/posts/40_Seaborn_categ/17.png
-[pt_18]: /images/posts/40_Seaborn_categ/18.png
-[pt_19]: /images/posts/40_Seaborn_categ/19.png
-[pt_20]: /images/posts/40_Seaborn_categ/20.png
-[pt_21]: /images/posts/40_Seaborn_categ/21.png
-[pt_22]: /images/posts/40_Seaborn_categ/22.png
-[pt_23]: /images/posts/40_Seaborn_categ/23.png
-[pt_24]: /images/posts/40_Seaborn_categ/24.png
-[pt_25]: /images/posts/40_Seaborn_categ/25.png
-[pt_26]: /images/posts/40_Seaborn_categ/26.png
-[pt_27]: /images/posts/40_Seaborn_categ/27.png
-[pt_28]: /images/posts/40_Seaborn_categ/28.png
+[pt_01]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/01.png
+[pt_02]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/02.png
+[pt_03]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/03.png
+[pt_04]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/04.png
+[pt_05]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/05.png
+[pt_06]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/06.png
+[pt_07]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/07.png
+[pt_08]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/08.png
+[pt_09]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/09.png
+[pt_10]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/10.png
+[pt_11]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/11.png
+[pt_12]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/12.png
+[pt_13]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/13.png
+[pt_14]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/14.png
+[pt_15]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/15.png
+[pt_16]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/16.png
+[pt_17]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/17.png
+[pt_18]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/18.png
+[pt_19]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/19.png
+[pt_20]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/20.png
+[pt_21]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/21.png
+[pt_22]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/22.png
+[pt_23]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/23.png
+[pt_24]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/24.png
+[pt_25]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/25.png
+[pt_26]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/26.png
+[pt_27]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/27.png
+[pt_28]: https://gitee.com/nora2nan/blog-image/raw/master/41_Seaborn_categ/28.png
 
 {% endraw %}
