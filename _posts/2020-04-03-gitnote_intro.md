@@ -18,6 +18,10 @@ mathjax: true
 @@@@
 </div>
 
+
+
+
+
 {% raw %}
 前面的都是文字铺垫，可以直接跳过~~  
 
@@ -204,40 +208,40 @@ github 则是将图片上传到 github 上，需要进行一些配置，创建�
 
 blibli上的简介链接地址：https://www.bilibili.com/video/av43903167/  
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2020/4/gitnote_intro/)   
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2020/04/03/gitnote_intro/)   
 
 <!--以下是本文用到的链接-->  
 
-[pt_01]: /images/posts/47_gitnote_intro/01.png  
-[pt_02]: /images/posts/47_gitnote_intro/02.png  
-[pt_03]: /images/posts/47_gitnote_intro/03.png  
-[pt_04]: /images/posts/47_gitnote_intro/04.png  
-[pt_05]: /images/posts/47_gitnote_intro/05.png  
-[pt_06]: /images/posts/47_gitnote_intro/06.png  
-[pt_07]: /images/posts/47_gitnote_intro/07.png  
-[pt_08]: /images/posts/47_gitnote_intro/08.png  
-[pt_09]: /images/posts/47_gitnote_intro/09.png  
-[pt_10]: /images/posts/47_gitnote_intro/10.png  
-[pt_11]: /images/posts/47_gitnote_intro/11.png  
-[pt_12]: /images/posts/47_gitnote_intro/12.png  
-[pt_13]: /images/posts/47_gitnote_intro/13.png  
-[pt_14]: /images/posts/47_gitnote_intro/14.png  
-[pt_15]: /images/posts/47_gitnote_intro/15.png  
-[pt_16]: /images/posts/47_gitnote_intro/16.png  
-[pt_17]: /images/posts/47_gitnote_intro/17.png  
-[pt_18]: /images/posts/47_gitnote_intro/18.png  
-[pt_19]: /images/posts/47_gitnote_intro/19.png  
-[pt_20]: /images/posts/47_gitnote_intro/20.png  
-[pt_21]: /images/posts/47_gitnote_intro/21.png  
-[pt_22]: /images/posts/47_gitnote_intro/22.png  
-[pt_23]: /images/posts/47_gitnote_intro/23.png  
-[pt_24]: /images/posts/47_gitnote_intro/24.png  
-[pt_25]: /images/posts/47_gitnote_intro/25.png  
-[pt_26]: /images/posts/47_gitnote_intro/26.png  
-[pt_27]: /images/posts/47_gitnote_intro/27.png  
-[pt_28]: /images/posts/47_gitnote_intro/28.png  
-[pt_29]: /images/posts/47_gitnote_intro/29.png  
-[pt_30]: /images/posts/47_gitnote_intro/30.png  
-[pt_31]: /images/posts/47_gitnote_intro/31.png  
+[pt_01]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/01.png
+[pt_02]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/02.png
+[pt_03]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/03.png
+[pt_04]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/04.png
+[pt_05]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/05.png
+[pt_06]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/06.png
+[pt_07]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/07.png
+[pt_08]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/08.png
+[pt_09]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/09.png
+[pt_10]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/10.png
+[pt_11]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/11.png
+[pt_12]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/12.png
+[pt_13]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/13.png
+[pt_14]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/14.png
+[pt_15]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/15.png
+[pt_16]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/16.png
+[pt_17]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/17.png
+[pt_18]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/18.png
+[pt_19]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/19.png
+[pt_20]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/20.png
+[pt_21]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/21.png
+[pt_22]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/22.png
+[pt_23]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/23.png
+[pt_24]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/24.png
+[pt_25]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/25.png
+[pt_26]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/26.png
+[pt_27]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/27.png
+[pt_28]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/28.png
+[pt_29]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/29.png
+[pt_30]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/30.png
+[pt_1.]: https://gitee.com/nora2nan/blog-image/raw/master/48_gitnote_intro/31.png)
 
 {% endraw %}
