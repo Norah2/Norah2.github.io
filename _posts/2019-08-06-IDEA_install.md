@@ -11,11 +11,15 @@ mathjax: true
 
 * content
 {:toc}
+
 IDEA安装教程以及简单设置内核。  
 
 <div style='display: none'>
 @@@@
 </div>
+
+
+
 
 {% raw %}
 在安装IDEA之前需安装jdk，安装教程可以参照[jdk安装教程][link_01]  
@@ -144,45 +148,27 @@ IDEA安装教程以及简单设置内核。
   
 转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/08/IDEA_install/)   
 
-<!--以下是本文用到的链接  
+<!--以下是本文用到的链接-->  
 
-[pt_01]: /images/posts/IDEA_install/01.png
-[pt_02]: /images/posts/IDEA_install/02.png
-[pt_03]: /images/posts/IDEA_install/03.png
-[pt_04]: /images/posts/IDEA_install/04.png
-[pt_05]: /images/posts/IDEA_install/05.png
-[pt_06]: /images/posts/IDEA_install/06.png
-[pt_07]: /images/posts/IDEA_install/07.png
-[pt_08]: /images/posts/IDEA_install/08.png
-[pt_09]: /images/posts/IDEA_install/09.png
-[pt_10]: /images/posts/IDEA_install/10.png
-[pt_11]: /images/posts/IDEA_install/11.png
-[pt_12]: /images/posts/IDEA_install/12.png
-[pt_13]: /images/posts/IDEA_install/13.png
-[pt_14]: /images/posts/IDEA_install/14.png
-[pt_15]: /images/posts/IDEA_install/15.png
-[pt_16]: /images/posts/IDEA_install/16.png
-[pt_17]: /images/posts/IDEA_install/17.png
-[pt_18]: /images/posts/IDEA_install/18.png
-[![WPPVQe.png](https://z3.ax1x.com/2021/07/12/WPPVQe.png)](https://imgtu.com/i/WPPVQe)
-[![WPPkRO.png](https://z3.ax1x.com/2021/07/12/WPPkRO.png)](https://imgtu.com/i/WPPkRO)
-[![WPPAzD.png](https://z3.ax1x.com/2021/07/12/WPPAzD.png)](https://imgtu.com/i/WPPAzD)
-[![WPPFJK.png](https://z3.ax1x.com/2021/07/12/WPPFJK.png)](https://imgtu.com/i/WPPFJK)
-[![WPPii6.png](https://z3.ax1x.com/2021/07/12/WPPii6.png)](https://imgtu.com/i/WPPii6)
-[![WPPZsH.png](https://z3.ax1x.com/2021/07/12/WPPZsH.png)](https://imgtu.com/i/WPPZsH)
-[![WPPeLd.png](https://z3.ax1x.com/2021/07/12/WPPeLd.png)](https://imgtu.com/i/WPPeLd)
-[![WPPneA.png](https://z3.ax1x.com/2021/07/12/WPPneA.png)](https://imgtu.com/i/WPPneA)
-[![WPPudI.png](https://z3.ax1x.com/2021/07/12/WPPudI.png)](https://imgtu.com/i/WPPudI)
-[![WPPKot.png](https://z3.ax1x.com/2021/07/12/WPPKot.png)](https://imgtu.com/i/WPPKot)
-[![WPPGQg.png](https://z3.ax1x.com/2021/07/12/WPPGQg.png)](https://imgtu.com/i/WPPGQg)
-[![WPPQFP.png](https://z3.ax1x.com/2021/07/12/WPPQFP.png)](https://imgtu.com/i/WPPQFP)
-[![WPPlJf.png](https://z3.ax1x.com/2021/07/12/WPPlJf.png)](https://imgtu.com/i/WPPlJf)
-[![WPP8SS.png](https://z3.ax1x.com/2021/07/12/WPP8SS.png)](https://imgtu.com/i/WPP8SS)
-[![WPP1W8.png](https://z3.ax1x.com/2021/07/12/WPP1W8.png)](https://imgtu.com/i/WPP1W8)
-[![WPPJyQ.png](https://z3.ax1x.com/2021/07/12/WPPJyQ.png)](https://imgtu.com/i/WPPJyQ)
-[![WPPYLj.png](https://z3.ax1x.com/2021/07/12/WPPYLj.png)](https://imgtu.com/i/WPPYLj)
+[pt_01]: https://gitee.com/nora2nan/blog-image/raw/master/26_IDEA_install/01.png
+[pt_02]: https://gitee.com/nora2nan/blog-image/raw/master/26_IDEA_install/02.png
+[pt_03]: https://gitee.com/nora2nan/blog-image/raw/master/26_IDEA_install/03.png
+[pt_04]: https://gitee.com/nora2nan/blog-image/raw/master/26_IDEA_install/04.png
+[pt_05]: https://gitee.com/nora2nan/blog-image/raw/master/26_IDEA_install/05.png
+[pt_06]: https://gitee.com/nora2nan/blog-image/raw/master/26_IDEA_install/06.png
+[pt_07]: https://gitee.com/nora2nan/blog-image/raw/master/26_IDEA_install/07.png
+[pt_08]: https://gitee.com/nora2nan/blog-image/raw/master/26_IDEA_install/08.png
+[pt_09]: https://gitee.com/nora2nan/blog-image/raw/master/26_IDEA_install/09.png
+[pt_10]: https://gitee.com/nora2nan/blog-image/raw/master/26_IDEA_install/10.png
+[pt_11]: https://gitee.com/nora2nan/blog-image/raw/master/26_IDEA_install/11.png
+[pt_12]: https://gitee.com/nora2nan/blog-image/raw/master/26_IDEA_install/12.png
+[pt_13]: https://gitee.com/nora2nan/blog-image/raw/master/26_IDEA_install/13.png
+[pt_14]: https://gitee.com/nora2nan/blog-image/raw/master/26_IDEA_install/14.png
+[pt_15]: https://gitee.com/nora2nan/blog-image/raw/master/26_IDEA_install/15.png
+[pt_16]: https://gitee.com/nora2nan/blog-image/raw/master/26_IDEA_install/16.png
+[pt_17]: https://gitee.com/nora2nan/blog-image/raw/master/26_IDEA_install/17.png
+[pt_18]: https://gitee.com/nora2nan/blog-image/raw/master/26_IDEA_install/18.png
 
--->
-[link_01]: https://norah2.github.io/2019/05/jdk_install/
+[link_01]: https://norah2.github.io/2019/05/17/jdk_install/
 
 {% endraw %}
