@@ -11,12 +11,13 @@ mathjax: true
 
 * content
 {:toc}
-利用matplotlib库画基础的柱状图、线型图、堆积柱状图、饼图、直方图、填充区域图表、堆积图、带彩色标记的散点图等等，还记录了有关图表的线型、属性、格式化字符的参数值以及说明；同时还讲解了怎么移动轴线、添加误差线、添加图例、刻度、刻度标签、网格等等部件。  
 
+利用matplotlib库画基础的柱状图、线型图、堆积柱状图、饼图、直方图、填充区域图表、堆积图、带彩色标记的散点图等等，还记录了有关图表的线型、属性、格式化字符的参数值以及说明；同时还讲解了怎么移动轴线、添加误差线、添加图例、刻度、刻度标签、网格等等部件。  
 
 <div style='display: none'>
 @@@@
 </div>
+
 
 
 
@@ -673,29 +674,28 @@ plt.show()
 
 终于写完了，敲键盘真的会手疼！！敲这个就能花掉一天时间，希望我没有在做无用功吧。  
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/09/matplotlib_plot/)   
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/09/22/matplotlib_plot/)   
 
-<!--以下是本文用到的链接  
+<!--以下是本文用到的链接-->  
 
-[pt_01]: /images/posts/36_plot_charts/01.png
-[pt_02]: /images/posts/36_plot_charts/02.png
-[pt_03]: /images/posts/36_plot_charts/03.png
-[pt_04]: /images/posts/36_plot_charts/04.png
-[pt_05]: /images/posts/36_plot_charts/05.png
-[pt_06]: /images/posts/36_plot_charts/06.png
-[pt_07]: /images/posts/36_plot_charts/07.png
-[pt_08]: /images/posts/36_plot_charts/08.png
-[pt_09]: /images/posts/36_plot_charts/09.png
-[pt_10]: /images/posts/36_plot_charts/10.png
-[pt_11]: /images/posts/36_plot_charts/11.png
-[pt_12]: /images/posts/36_plot_charts/12.png
-[pt_13]: /images/posts/36_plot_charts/13.png
-[pt_14]: /images/posts/36_plot_charts/14.png
-[pt_15]: /images/posts/36_plot_charts/15.png
-[pt_16]: /images/posts/36_plot_charts/16.png
-[pt_17]: /images/posts/36_plot_charts/17.png
-[pt_18]: /images/posts/36_plot_charts/18.png
-[pt_19]: /images/posts/36_plot_charts/19.png
+[pt_01]: https://gitee.com/nora2nan/blog-image/raw/master/36_plot_charts/01.png
+[pt_02]: https://gitee.com/nora2nan/blog-image/raw/master/36_plot_charts/02.png
+[pt_03]: https://gitee.com/nora2nan/blog-image/raw/master/36_plot_charts/03.png
+[pt_04]: https://gitee.com/nora2nan/blog-image/raw/master/36_plot_charts/04.png
+[pt_05]: https://gitee.com/nora2nan/blog-image/raw/master/36_plot_charts/05.png
+[pt_06]: https://gitee.com/nora2nan/blog-image/raw/master/36_plot_charts/06.png
+[pt_07]: https://gitee.com/nora2nan/blog-image/raw/master/36_plot_charts/07.png
+[pt_08]: https://gitee.com/nora2nan/blog-image/raw/master/36_plot_charts/08.png
+[pt_09]: https://gitee.com/nora2nan/blog-image/raw/master/36_plot_charts/09.png
+[pt_10]: https://gitee.com/nora2nan/blog-image/raw/master/36_plot_charts/10.png
+[pt_11]: https://gitee.com/nora2nan/blog-image/raw/master/36_plot_charts/11.png
+[pt_12]: https://gitee.com/nora2nan/blog-image/raw/master/36_plot_charts/12.png
+[pt_13]: https://gitee.com/nora2nan/blog-image/raw/master/36_plot_charts/13.png
+[pt_14]: https://gitee.com/nora2nan/blog-image/raw/master/36_plot_charts/14.png
+[pt_15]: https://gitee.com/nora2nan/blog-image/raw/master/36_plot_charts/15.png
+[pt_16]: https://gitee.com/nora2nan/blog-image/raw/master/36_plot_charts/16.png
+[pt_17]: https://gitee.com/nora2nan/blog-image/raw/master/36_plot_charts/17.png
+[pt_18]: https://gitee.com/nora2nan/blog-image/raw/master/36_plot_charts/18.png
+[pt_19]: https://gitee.com/nora2nan/blog-image/raw/master/36_plot_charts/19.png
 
--->
 {% endraw %}
