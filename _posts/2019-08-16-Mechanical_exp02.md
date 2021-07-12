@@ -18,6 +18,10 @@ mathjax: true
 @@@@
 </div>
 
+
+
+
+
 {% raw %}
 最近在看《Python科学计算（第二版）》这本书，看到第五章后直接跳到了最后一章的实例部分，昨天刚刚看完第一个实例，虽然简单但是还是花了不少时间与精力，今天开始琢磨第二个实例，现在就来记录一下。  
 
@@ -561,20 +565,18 @@ pl.ylabel(u"摆动周期(秒)");
 
 
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/08/Mechanical_exp02/)   
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/08/16/Mechanical_exp02/)   
 
-<!--以下是本文用到的链接  
+<!--以下是本文用到的链接-->  
 
-[pt_01]: /images/posts/Mechanical_exp02/01.png
-[pt_02]: /images/posts/Mechanical_exp02/02.png
-[pt_03]: /images/posts/Mechanical_exp02/03.png
-[pt_04]: /images/posts/Mechanical_exp02/04.png
-[pt_05]: /images/posts/Mechanical_exp02/05.png
-[pt_06]: /images/posts/Mechanical_exp02/06.png
-[pt_07]: /images/posts/Mechanical_exp02/07.png
-[pt_08]: /images/posts/Mechanical_exp02/08.png
-[pt_09]: /images/posts/Mechanical_exp02/09.png
+[pt_01]: https://gitee.com/nora2nan/blog-image/raw/master/30_Mechanical_exp02/01.png
+[pt_02]: https://gitee.com/nora2nan/blog-image/raw/master/30_Mechanical_exp02/02.png
+[pt_03]: https://gitee.com/nora2nan/blog-image/raw/master/30_Mechanical_exp02/03.png
+[pt_04]: https://gitee.com/nora2nan/blog-image/raw/master/30_Mechanical_exp02/04.png
+[pt_05]: https://gitee.com/nora2nan/blog-image/raw/master/30_Mechanical_exp02/05.png
+[pt_06]: https://gitee.com/nora2nan/blog-image/raw/master/30_Mechanical_exp02/06.png
+[pt_07]: https://gitee.com/nora2nan/blog-image/raw/master/30_Mechanical_exp02/07.png
+[pt_08]: https://gitee.com/nora2nan/blog-image/raw/master/30_Mechanical_exp02/08.png
+[pt_09]: https://gitee.com/nora2nan/blog-image/raw/master/30_Mechanical_exp02/09.png
 
-
--->
 {% endraw %}
