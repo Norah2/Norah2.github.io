@@ -11,11 +11,15 @@ mathjax: true
 
 * content
 {:toc}
+
 有关分类变量的绘制 
 
 <div style='display: none'>
 @@@@
 </div>
+
+
+
 
 {% raw %}
 当探索medium-dimensional数据时，一种有用的方法是在数据集的不同子集上绘制同一绘图的多个实例。这种技术有时被称为“lattice”or“trellies”图，它与“small multiples”的概念有关。它允许查看器快速提取有关复杂数据的大量信息。maltiplotlib为制作多轴图形提供了很好的支持。seaborn在此基础上构建，将绘图结构直接连接到数据集结构。  
@@ -373,37 +377,32 @@ g = sns.pairplot(iris, hue="species", palette="Set2", diag_kind="kde", height=2.
 http://seaborn.pydata.org/tutorial/axis_grids.html  
 
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/11/Seaborn_multiplot/)   
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/11/04/Seaborn_multiplot/)   
 
 <!--以下是本文用到的链接-->  
 
-[pt_01]: /images/posts/41_Seaborn_distri/01.png
-[pt_02]: /images/posts/41_Seaborn_distri/02.png
-[pt_03]: /images/posts/41_Seaborn_distri/03.png
-[pt_04]: /images/posts/41_Seaborn_distri/04.png
-[pt_05]: /images/posts/41_Seaborn_distri/05.png
-[pt_06]: /images/posts/41_Seaborn_distri/06.png
-[pt_07]: /images/posts/41_Seaborn_distri/07.png
-[pt_08]: /images/posts/41_Seaborn_distri/08.png
-[pt_09]: /images/posts/41_Seaborn_distri/09.png
-[pt_10]: /images/posts/41_Seaborn_distri/10.png
-[pt_11]: /images/posts/41_Seaborn_distri/11.png
-[pt_12]: /images/posts/41_Seaborn_distri/12.png
-[pt_13]: /images/posts/41_Seaborn_distri/13.png
-[pt_14]: /images/posts/41_Seaborn_distri/14.png
-[pt_15]: /images/posts/41_Seaborn_distri/15.png
-[pt_16]: /images/posts/41_Seaborn_distri/16.png
-[pt_17]: /images/posts/41_Seaborn_distri/17.png
-[pt_18]: /images/posts/41_Seaborn_distri/18.png
-[pt_19]: /images/posts/41_Seaborn_distri/19.png
-[pt_20]: /images/posts/41_Seaborn_distri/20.png
-[pt_21]: /images/posts/41_Seaborn_distri/21.png
-[pt_22]: /images/posts/41_Seaborn_distri/22.png
-[pt_23]: /images/posts/41_Seaborn_distri/23.png
-[pt_24]: /images/posts/41_Seaborn_distri/24.png
-[pt_25]: /images/posts/41_Seaborn_distri/25.png
-[pt_26]: /images/posts/41_Seaborn_distri/26.png
-[pt_27]: /images/posts/41_Seaborn_distri/27.png
-[pt_28]: /images/posts/41_Seaborn_distri/28.png
+[pt_01]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/01.png
+[pt_02]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/02.png
+[pt_03]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/03.png
+[pt_04]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/04.png
+[pt_05]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/05.png
+[pt_06]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/06.png
+[pt_07]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/07.png
+[pt_08]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/08.png
+[pt_09]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/09.png
+[pt_10]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/10.png
+[pt_11]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/11.png
+[pt_12]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/12.png
+[pt_13]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/13.png
+[pt_14]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/14.png
+[pt_15]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/15.png
+[pt_16]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/16.png
+[pt_17]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/17.png
+[pt_18]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/18.png
+[pt_19]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/19.png
+[pt_20]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/20.png
+[pt_21]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/21.png
+[pt_22]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/22.png
+[pt_23]: https://gitee.com/nora2nan/blog-image/raw/master/47_Seaborn_multiplot/23.png
 
 {% endraw %}
