@@ -11,11 +11,16 @@ mathjax: true
 
 * content
 {:toc}
+
 cv2.imread()函数的参数详解  
 
 <div style='display: none'>
 @@@@
 </div>
+
+
+
+
 
 {% raw %}
 
@@ -36,9 +41,8 @@ filename指图像名称，flag指读取图像颜色类型：
 
 
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/08/imread_func/)   
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/08/15/imread_func/)   
 
 <!--以下是本文用到的链接-->  
-
 
 {% endraw %}
