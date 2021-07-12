@@ -11,11 +11,16 @@ mathjax: true
 
 * content
 {:toc}
+
 coo_matrix()函数的参数详解
 
 <div style='display: none'>
 @@@@
 </div>
+
+
+
+
 
 {% raw %}
 
@@ -46,7 +51,7 @@ array([[3, 0, 1, 0],
 ```
 
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/08/coo_matrix_func/)   
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/08/16/coo_matrix_func/)   
 
 <!--以下是本文用到的链接-->  
 
