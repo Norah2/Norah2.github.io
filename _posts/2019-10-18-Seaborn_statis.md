@@ -367,7 +367,7 @@ http://seaborn.pydata.org/tutorial/relational.html
 
 
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/10/Seaborn_statis/)   
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/10/18/Seaborn_statis/)   
 
 <!--以下是本文用到的链接-->  
 
