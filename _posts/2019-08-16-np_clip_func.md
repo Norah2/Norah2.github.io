@@ -18,6 +18,10 @@ mathjax: true
 @@@@
 </div>
 
+
+
+
+
 {% raw %}
 函数格式：  
 
@@ -45,9 +49,7 @@ print(a)
  [5 6 7 7 7]]
 ```
 
-
-
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/08/np_clip_func/)   
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/08/16/np_clip_func/)   
 
 <!--以下是本文用到的链接-->  
 
