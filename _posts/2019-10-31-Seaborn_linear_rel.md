@@ -20,6 +20,10 @@ Seaborn主要是一个在探索数据、分析数据中帮我们在视觉上进�
 @@@@
 </div>
 
+
+
+
+
 {% raw %}
 首先导入需要用到的包：  
 
@@ -323,34 +327,34 @@ sns.pairplot(tips, x_vars=["total_bill", "size"], y_vars=["tip"],
 
 http://seaborn.pydata.org/tutorial/regression.html
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/10/Seaborn_linear_rel/)   
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/10/31/Seaborn_linear_rel/)   
 
 <!--以下是本文用到的链接-->  
 
-[pt_01]: /images/posts/45_Seaborn_linear/01.png
-[pt_02]: /images/posts/45_Seaborn_linear/02.png
-[pt_03]: /images/posts/45_Seaborn_linear/03.png
-[pt_04]: /images/posts/45_Seaborn_linear/04.png
-[pt_05]: /images/posts/45_Seaborn_linear/05.png
-[pt_06]: /images/posts/45_Seaborn_linear/06.png
-[pt_07]: /images/posts/45_Seaborn_linear/07.png
-[pt_08]: /images/posts/45_Seaborn_linear/08.png
-[pt_09]: /images/posts/45_Seaborn_linear/09.png
-[pt_10]: /images/posts/45_Seaborn_linear/10.png
-[pt_11]: /images/posts/45_Seaborn_linear/11.png
-[pt_12]: /images/posts/45_Seaborn_linear/12.png
-[pt_13]: /images/posts/45_Seaborn_linear/13.png
-[pt_14]: /images/posts/45_Seaborn_linear/14.png
-[pt_15]: /images/posts/45_Seaborn_linear/15.png
-[pt_16]: /images/posts/45_Seaborn_linear/16.png
-[pt_17]: /images/posts/45_Seaborn_linear/17.png
-[pt_18]: /images/posts/45_Seaborn_linear/18.png
-[pt_19]: /images/posts/45_Seaborn_linear/19.png
-[pt_20]: /images/posts/45_Seaborn_linear/20.png
-[pt_21]: /images/posts/45_Seaborn_linear/21.png
-[pt_22]: /images/posts/45_Seaborn_linear/22.png
-[pt_23]: /images/posts/45_Seaborn_linear/23.png
-[pt_24]: /images/posts/45_Seaborn_linear/24.png
-[pt_25]: /images/posts/45_Seaborn_linear/25.png
+[pt_01]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/01.png
+[pt_02]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/02.png
+[pt_03]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/03.png
+[pt_04]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/04.png
+[pt_05]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/05.png
+[pt_06]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/06.png
+[pt_07]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/07.png
+[pt_08]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/08.png
+[pt_09]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/09.png
+[pt_10]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/10.png
+[pt_11]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/11.png
+[pt_12]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/12.png
+[pt_13]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/13.png
+[pt_14]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/14.png
+[pt_15]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/15.png
+[pt_16]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/16.png
+[pt_17]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/17.png
+[pt_18]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/18.png
+[pt_19]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/19.png
+[pt_20]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/20.png
+[pt_21]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/21.png
+[pt_22]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/22.png
+[pt_23]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/23.png
+[pt_24]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/24.png
+[pt_25]: https://gitee.com/nora2nan/blog-image/raw/master/46_Seaborn_linear/25.png
 
 {% endraw %}
