@@ -14,14 +14,16 @@ mathjax: true
 
 今天来总结一下python的内置函数，一共有69个内置函数（问我怎么知道具体数字的？数的呗！！），基于python 3.x的编译环境。我预感到写这篇博客又是一场腥风血雨，不过我准备好了，来吧！！！  
 
-
 <div style='display: none'>
 @@@@
 </div>
 
+
+
+
+
 {% raw %}
-[//]: # (![built-in function][func])  
-[![W9PzfU.png](https://z3.ax1x.com/2021/07/11/W9PzfU.png)](https://imgtu.com/i/W9PzfU)  
+![built-in function][func]
 
 ### 输入输出函数  
 * print(* objects，sep =''，end ='\ n'，file = sys.stdout，flush = False)  将对象打印到文本流文件，以sep分隔，然后结束。sep，end，file和flush必须作为关键字参数给出。  
@@ -980,11 +982,10 @@ http://www.cnblogs.com/xiao1/p/5856890.html
 https://docs.python.org/3/library/functions.html  
 https://www.jianshu.com/p/5d3c52c5c2a2  
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/03/Built_in_func/) 
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/03/17/Built_in_func/) 
 
-<!--以下是本文中的链接
-[func]: /images/posts/Built_in_func/01.png  
-[![W9PzfU.png](https://z3.ax1x.com/2021/07/11/W9PzfU.png)](https://imgtu.com/i/W9PzfU)
+<!--以下是本文中的链接-->
+[func]: https://gitee.com/nora2nan/blog-image/raw/master/05_Built_in_func/01.png
 -->
 
 {% endraw %}
