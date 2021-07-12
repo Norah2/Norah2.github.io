@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "前端弹性动画与 framer-motion 动画库初探"
-categories: JavaScript
-tags: 动画
-author: HyG
+title: GitNote软件——强力推荐  
+date: 2020-04-03
+description: 软件介绍  
+categories: Install
+tags: Install GitNote
+author: NMt
 mathjax: true
 ---
-
 * content
 {:toc}
 
