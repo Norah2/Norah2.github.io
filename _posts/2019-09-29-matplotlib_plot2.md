@@ -11,11 +11,14 @@ mathjax: true
 
 * content
 {:toc}
+
 本文中包括如何设置坐标轴标签透明度以及大小、添加线条阴影、添加数据表格、划分子区、定制网格grid、等高线图、填充图表底层区域、极线图。  
 
 <div style='display: none'>
 @@@@
 </div>
+
+
 
 
 {% raw %}
@@ -550,29 +553,22 @@ plt.show()
 为了区分每一个极线条，我们需要循环遍历添加到ax（坐标轴）的每一个极线条，并定制化其外观（表面颜色和透明度）。
 
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/09/matplotlib_plot2/)   
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/09/29/matplotlib_plot2/)   
 
 <!--以下是本文用到的链接-->  
 
-[pt_01]: /images/posts/37_plot_seting/01.png
-[pt_02]: /images/posts/37_plot_seting/02.png
-[pt_03]: /images/posts/37_plot_seting/03.png
-[pt_04]: /images/posts/37_plot_seting/04.png
-[pt_05]: /images/posts/37_plot_seting/05.png
-[pt_06]: /images/posts/37_plot_seting/06.png
-[pt_07]: /images/posts/37_plot_seting/07.png
-[pt_08]: /images/posts/37_plot_seting/08.png
-[pt_09]: /images/posts/37_plot_seting/09.png
-[pt_10]: /images/posts/37_plot_seting/10.png
-[pt_11]: /images/posts/37_plot_seting/11.png
-[pt_12]: /images/posts/37_plot_seting/12.png
-[pt_13]: /images/posts/37_plot_seting/13.png
-[pt_14]: /images/posts/37_plot_seting/14.png
-[pt_15]: /images/posts/37_plot_seting/15.png
-[pt_16]: /images/posts/37_plot_seting/16.png
-[pt_17]: /images/posts/37_plot_seting/17.png
-[pt_18]: /images/posts/37_plot_seting/18.png
-[pt_19]: /images/posts/37_plot_seting/19.png
-
+[pt_01]: https://gitee.com/nora2nan/blog-image/raw/master/37_plot_seting/01.png
+[pt_02]: https://gitee.com/nora2nan/blog-image/raw/master/37_plot_seting/02.png
+[pt_03]: https://gitee.com/nora2nan/blog-image/raw/master/37_plot_seting/03.png
+[pt_04]: https://gitee.com/nora2nan/blog-image/raw/master/37_plot_seting/04.png
+[pt_05]: https://gitee.com/nora2nan/blog-image/raw/master/37_plot_seting/05.png
+[pt_06]: https://gitee.com/nora2nan/blog-image/raw/master/37_plot_seting/06.png
+[pt_07]: https://gitee.com/nora2nan/blog-image/raw/master/37_plot_seting/07.png
+[pt_08]: https://gitee.com/nora2nan/blog-image/raw/master/37_plot_seting/08.png
+[pt_09]: https://gitee.com/nora2nan/blog-image/raw/master/37_plot_seting/09.png
+[pt_10]: https://gitee.com/nora2nan/blog-image/raw/master/37_plot_seting/10.png
+[pt_11]: https://gitee.com/nora2nan/blog-image/raw/master/37_plot_seting/11.png
+[pt_12]: https://gitee.com/nora2nan/blog-image/raw/master/37_plot_seting/12.png
+[pt_13]: https://gitee.com/nora2nan/blog-image/raw/master/37_plot_seting/13.png
 
 {% endraw %}
