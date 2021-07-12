@@ -11,11 +11,16 @@ mathjax: true
 
 * content
 {:toc}
+
 最近在看《Python科学计算（第二版）》这本书，看到第五章后直接跳到了最后一章的实例部分，花了很久时间把第一个实例弄懂了七七八八，现在就来记录一下。  
 
 <div style='display: none'>
 @@@@
 </div>
+
+
+
+
 
 {% raw %}
 **注：代码是书中的代码，不是本人所写，本文只是在详解代码。**  
@@ -357,19 +362,20 @@ fig.subplots_adjust(wspace=0.05)
 
 可能是我底子薄吧，这个代码看了很久，我几乎没有接触过图像处理的案例，也没有写过关于图像处理的代码，确实费了一些时间来看这个代码，尽管这个代码很简单。还是希望大家能多多支持~  
 
-转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/08/image_possion_exp01/)   
+转载请注明：[南梦婷的博客](https://norah2.github.io) » [点击阅读原文](https://norah2.github.io/2019/08/15/image_possion_exp01/)   
 
 <!--以下是本文用到的链接-->  
 
-[pt_01]: /images/posts/image_possion_exp01/01.png
-[pt_02]: /images/posts/image_possion_exp01/02.png
-[pt_03]: /images/posts/image_possion_exp01/03.png
-[pt_04]: /images/posts/image_possion_exp01/04.png
-[pt_05]: /images/posts/image_possion_exp01/05.png
-[pt_06]: /images/posts/image_possion_exp01/06.png
-[pt_07]: /images/posts/image_possion_exp01/07.png
-[pt_08]: /images/posts/image_possion_exp01/08.png
-[pt_09]: /images/posts/image_possion_exp01/09.png
+[pt_01]: https://gitee.com/nora2nan/blog-image/raw/master/27_image_possion_exp01/01.png
+[pt_02]: https://gitee.com/nora2nan/blog-image/raw/master/27_image_possion_exp01/02.png
+[pt_03]: https://gitee.com/nora2nan/blog-image/raw/master/27_image_possion_exp01/03.png
+[pt_04]: https://gitee.com/nora2nan/blog-image/raw/master/27_image_possion_exp01/04.png
+[pt_05]: https://gitee.com/nora2nan/blog-image/raw/master/27_image_possion_exp01/05.png
+[pt_06]: https://gitee.com/nora2nan/blog-image/raw/master/27_image_possion_exp01/06.png
+[pt_07]: https://gitee.com/nora2nan/blog-image/raw/master/27_image_possion_exp01/07.png
+[pt_08]: https://gitee.com/nora2nan/blog-image/raw/master/27_image_possion_exp01/08.png
+[pt_09]: https://gitee.com/nora2nan/blog-image/raw/master/27_image_possion_exp01/09.png
+
 [link_01]: https://norah2.github.io/2019/08/imread_func/
 
 {% endraw %}
